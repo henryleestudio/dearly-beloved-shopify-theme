@@ -31,7 +31,7 @@
           "background": "{{ shop.brand.colors.primary[0].foreground }}",
           "background_gradient": "",
           "text_color": "#0b1e25",
-          "primary_button_background": "#0b1e25",
+          "primary_button_background": "{{ shop.brand.colors.secondary[1].background }}",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "{{ shop.brand.colors.secondary[1].background }}",
           "circle_button_icon": "{{ shop.brand.colors.primary[0].foreground }}"
