@@ -42,7 +42,7 @@
         "show_separation_border": false,
         "reduce_padding": false,
         "logo": "{{ shop.brand.logo }}",
-        "logo_max_width": 240,
+        "logo_max_width": 300,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
         "sidebar_menu": "",
