@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/db-cover-image.webp",
             "subheading": "Tell your story",
-            "title": "Image slide",
+            "title": "For the moments words alone can’t express",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -40,6 +40,7 @@
         },
         "slide-2": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "subheading": "Tell your story",
             "title": "Image slide",
@@ -413,7 +414,7 @@
     "newsletter": {
       "type": "newsletter",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "separate_section_with_border": true,
         "image_size": "auto",
         "subheading": "Keep me updated",
