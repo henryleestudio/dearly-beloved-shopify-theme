@@ -81,6 +81,60 @@
         "controls_color": "#ffffff"
       }
     },
+    "testimonial_media_88Er9t": {
+      "type": "testimonial-media",
+      "blocks": {
+        "image_with_text_JQFqiF": {
+          "type": "image_with_text",
+          "settings": {
+            "video_link": "https://www.youtube.com/watch?v=w__rYIo7OG0",
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_hkQ9BW": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_JE4CVf": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Column title",
+            "heading_tag": "h3",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_JQFqiF",
+        "image_with_text_hkQ9BW",
+        "image_with_text_JE4CVf"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "About",
+        "title": "Multi-column",
+        "content": ""
+      }
+    },
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
@@ -480,6 +534,7 @@
   },
   "order": [
     "slideshow",
+    "testimonial_media_88Er9t",
     "featured-collections",
     "multi-column",
     "collection-list",
