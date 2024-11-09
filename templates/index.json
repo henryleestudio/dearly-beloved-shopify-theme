@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "slideshow": {
@@ -15,7 +6,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/db-cover-image.webp",
+            "image": "shopify:\/\/shop_images\/db-cover-image.webp",
             "subheading": "Tell your story",
             "title": "For the moments words alone can’t express",
             "mobile_text_position": "place-self-center text-center",
@@ -81,16 +72,73 @@
         "controls_color": "#ffffff"
       }
     },
+    "logo_list_BMVJNX": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_Qrbi84": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_YKHTT7": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_Xcn96P": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_paxEEU": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_9e9EC4": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_Qrbi84",
+        "logo_YKHTT7",
+        "logo_Xcn96P",
+        "logo_paxEEU",
+        "logo_9e9EC4"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Logo list",
+        "items_per_row": 5,
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "testimonial_media_88Er9t": {
       "type": "testimonial-media",
       "blocks": {
         "image_with_text_JQFqiF": {
           "type": "image_with_text",
           "settings": {
-            "video_link": "https://www.youtube.com/watch?v=w__rYIo7OG0",
+            "image": "shopify:\/\/shop_images\/db-cover-image.webp",
+            "video_link": "https:\/\/www.youtube.com\/watch?v=5O9qbuhsvsQ&list=PLpctalp71xOB8jdIG-OYseZdxA_iloj9_&index=2",
             "title": "Column title",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -98,9 +146,10 @@
         "image_with_text_hkQ9BW": {
           "type": "image_with_text",
           "settings": {
+            "video_link": "",
             "title": "Column title",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -108,9 +157,10 @@
         "image_with_text_JE4CVf": {
           "type": "image_with_text",
           "settings": {
+            "video_link": "",
             "title": "Column title",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -172,7 +222,7 @@
           "settings": {
             "title": "Column title",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -182,7 +232,7 @@
           "settings": {
             "title": "Column title",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -192,7 +242,7 @@
           "settings": {
             "title": "Column title",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -360,12 +410,13 @@
         "before",
         "after"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
         "subheading": "",
-        "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "title": "Before\/after",
+        "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
         "cursor_direction": "horizontal",
         "cursor_initial_position": 50,
         "cursor_background": "#ffffff",
@@ -380,7 +431,7 @@
           "settings": {
             "subheading": "",
             "title": "#1",
-            "content": "<p>Welcome your customers to your store by sharing temporary offers or explaining to them what your products are about.</p>",
+            "content": "<p>Welcome your customers to your store by sharing temporary offers or explaining to them what your products are about.<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -391,7 +442,7 @@
           "settings": {
             "subheading": "",
             "title": "#2",
-            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.</p>",
+            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -402,7 +453,7 @@
           "settings": {
             "subheading": "",
             "title": "#3",
-            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...</p>",
+            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -415,7 +466,7 @@
         "item-3"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "image_position": "start",
         "text_alignment": "center",
         "heading_tag": "h3",
@@ -456,7 +507,7 @@
         "text_alignment": "center",
         "subheading": "About",
         "title": "Showcase your product",
-        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.</p>",
+        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.<\/p>",
         "button_1_text": "",
         "button_1_link": "",
         "button_1_style": "solid",
@@ -473,7 +524,7 @@
         "image_size": "auto",
         "subheading": "Keep me updated",
         "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing.</p>",
+        "content": "<p>A short sentence describing what someone will receive by subscribing.<\/p>",
         "button_text": "Subscribe",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -534,6 +585,7 @@
   },
   "order": [
     "slideshow",
+    "logo_list_BMVJNX",
     "testimonial_media_88Er9t",
     "featured-collections",
     "multi-column",

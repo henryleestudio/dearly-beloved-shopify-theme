@@ -1,1 +1,13 @@
+a.stiky-btn {
+  border: 2px solid;
+  padding: 10px;
+}
 
+a.mobile-stiky-btn {
+  padding: 10px;
+  border: 1px solid;
+}
+
+body {
+  color: red;
+}
