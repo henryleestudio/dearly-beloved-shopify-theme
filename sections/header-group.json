@@ -35,11 +35,11 @@
         "reduce_padding": false,
         "logo": "shopify:\/\/shop_images\/dearly-beloved-logo-red.svg",
         "logo_max_width": 300,
-        "logo_mobile_max_width": 100,
+        "logo_mobile_max_width": 200,
         "menu": "main-menu",
         "sidebar_menu": "",
         "menu_open_trigger": "hover",
-        "enable_search": true,
+        "enable_search": false,
         "sidebar_color_scheme": "scheme-1",
         "sidebar_text_font": "heading",
         "sidebar_show_dividers": true,
@@ -49,7 +49,8 @@
         "show_country_name": false,
         "show_country_flag": true,
         "show_locale_selector": false,
-        "transparent_header_text_color": "#ffffff"
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify:\/\/shop_images\/dearly-beloved-logo-wht.svg"
       }
     }
   },
