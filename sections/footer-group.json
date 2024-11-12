@@ -68,7 +68,7 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "title": "Newsletter",
+            "title": "",
             "content": "<p>Sign up to our newsletter to receive exclusive offers.<\/p>",
             "button_background": "",
             "button_text_color": ""
@@ -78,14 +78,15 @@
           "type": "links",
           "settings": {
             "menu": "footer",
-            "show_menu_title": true,
+            "show_menu_title": false,
             "menu_title": ""
           }
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "title": "About",
+            "title": "",
             "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
             "enable_follow_on_shop": true
           }

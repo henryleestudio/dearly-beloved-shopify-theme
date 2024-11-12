@@ -105,9 +105,9 @@
           <span class="sr-only">{{ 'header.general.open_menu' | t }}</span>
           {%- render 'icon' with 'hamburger', class: 'header__nav-icon' -%}
         </button>
-          {% comment %} custom code nov 8 tushar {% endcomment %}
+
             <a href="#" class="md:hidden mobile-stiky-btn">GET P24</a>
-          {% comment %} end code {% endcomment %}
+
 
         {%- if menu.links.size > 0 and section.settings.layout != 'drawer' -%}
           <ul class="contents unstyled-list md-max:hidden">
@@ -164,11 +164,11 @@
                             {%- endif -%}
                           </li>
                         {%- endfor -%}
-                          {% comment %} custom code nov 8 tushar {% endcomment %}
+                         
                           <li class="header__primary-nav-item">
                             <a href="#" class="block h6 stiky-btn">Gifts</a>
                           </li>
-                          {% comment %} custom code {% endcomment %}
+               \
                       </ul>
                     {%- endif -%}
                   </details>
