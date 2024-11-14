@@ -3,8 +3,10 @@
     "collection-banner": {
       "type": "collection-banner",
       "settings": {
-        "color_scheme": "scheme-1",
-        "image_size": "auto",
+        "color_scheme": "scheme-3",
+        "image": "shopify:\/\/shop_images\/for-her-collection-banner.webp",
+        "mobile_image": "shopify:\/\/shop_images\/for-her-collection-banner-mobile.webp",
+        "image_size": "sm",
         "allow_transparent_header": true,
         "reveal": true,
         "enable_parallax": true,
@@ -13,8 +15,8 @@
         "show_collection_description": true,
         "show_breadcrumb": true,
         "content_width": "xs",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_color": "#e51740",
+        "overlay_opacity": 5
       }
     },
     "main": {

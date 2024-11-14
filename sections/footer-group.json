@@ -68,8 +68,8 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "title": "",
-            "content": "<p>Sign up to our newsletter to receive exclusive offers.<\/p>",
+            "title": "Stay Connected to Moments That Matter",
+            "content": "<p>Exclusive jewelry pieces, special offers, and inspiration for every unforgettable moment<\/p>",
             "button_background": "",
             "button_text_color": ""
           }

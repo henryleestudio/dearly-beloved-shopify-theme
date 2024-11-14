@@ -8,6 +8,18 @@ a.mobile-stiky-btn {
   border: 1px solid;
 }
 
-body {
-  color: red;
+.ratings-section {
+  margin: 0px 0px -10px 0px !important;
+}
+
+.ratings {
+  list-style: none;
+  display: flex !important;
+  margin: 0px 0px 0px -4px;
+  padding-top: 6px;
+}
+
+.fa-star {
+  font-size: 15px;
+  margin-right: 2px;
 }
