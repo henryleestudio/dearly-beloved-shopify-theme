@@ -82,6 +82,30 @@
             "menu_title": ""
           }
         },
+        "links_kKVREa": {
+          "type": "links",
+          "settings": {
+            "menu": "our-company",
+            "show_menu_title": false,
+            "menu_title": ""
+          }
+        },
+        "links_9pUgm4": {
+          "type": "links",
+          "settings": {
+            "menu": "terms-services",
+            "show_menu_title": false,
+            "menu_title": ""
+          }
+        },
+        "links_wEGVai": {
+          "type": "links",
+          "settings": {
+            "menu": "support",
+            "show_menu_title": false,
+            "menu_title": ""
+          }
+        },
         "text": {
           "type": "text",
           "disabled": true,
@@ -95,6 +119,9 @@
       "block_order": [
         "newsletter",
         "links",
+        "links_kKVREa",
+        "links_9pUgm4",
+        "links_wEGVai",
         "text"
       ],
       "settings": {
