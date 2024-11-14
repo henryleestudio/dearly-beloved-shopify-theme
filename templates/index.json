@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hero-img-5.jpg",
             "subheading": "",
-            "title": "FOR THE MOMENTS WORDS  words alone can’t express",
+            "title": "FOR THE MOMENTS WORDS  ALONE CAN'T EXPRESS",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
@@ -186,9 +186,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/testimonial-img-2.png",
             "video_link": "https:\/\/www.youtube.com\/watch?v=5O9qbuhsvsQ&list=PLpctalp71xOB8jdIG-OYseZdxA_iloj9_&index=2",
-            "title": "Column title",
+            "title": "Dave B.",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "content": "<p>She won't stop smiling. I Got this pendant for my girl, and man, she lit up like the 4th of July. It's more than just the bling, you know? It's like it says everything without speaking a word.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -196,11 +196,11 @@
         "image_with_text_hkQ9BW": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/testimonial-img-6.png",
+            "image": "shopify:\/\/shop_images\/testimonial-img-1.png",
             "video_link": "",
-            "title": "Column title",
+            "title": "Jordan C.",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "content": "<p>This is the perfect gift to express how much I love my wife. It will be a constant reminder of me when im gone. I will be getting one for my daughter.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -210,9 +210,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/testimonial-img-3.png",
             "video_link": "",
-            "title": "Column title",
+            "title": "Richard H.",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "content": "<p>My wife was ecstatic over the gift and very impressed with the quality, the beautiful box it came in and how bright and impressive the lighting was. It was a huge hit.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -222,9 +222,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/testimonial-img-5.png",
             "video_link": "",
-            "title": "Column title",
+            "title": "Jesse M.",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "content": "<p>Didn't take long to receive the necklace. A nice looking display box and it lights up. I would possibly consider buying another one. And the price didn't break the bank either!<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -232,11 +232,11 @@
         "image_with_text_YeDmea": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/testimonial-img-4.png",
+            "image": "shopify:\/\/shop_images\/product-shot-7.webp",
             "video_link": "",
-            "title": "Column title",
+            "title": "Patricia W.",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "content": "<p>The purchase came exactly as portrayed online. I absolutely love my necklace! It is everything I could have imagined and I am extremely pleased. Great product!<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -360,7 +360,7 @@
         "item-3": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/product-shot-5.png",
+            "image": "shopify:\/\/shop_images\/testimonial-img-6.png",
             "subheading": "",
             "title": "#3",
             "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...<\/p>",
@@ -384,7 +384,7 @@
         "item-2": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/product-shot-2.webp",
+            "image": "shopify:\/\/shop_images\/product-shot-6_4c797206-18ee-4aa2-8424-e8fcaa0404a7.webp",
             "subheading": "",
             "title": "#2",
             "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.<\/p>",
@@ -400,8 +400,8 @@
         "item-2"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
-        "background_image": "shopify:\/\/shop_images\/pexels-hatice-796619215-27986407.jpg",
+        "color_scheme": "scheme-4",
+        "background_image": "shopify:\/\/shop_images\/pexels-mikhail-nilov-7676887.jpg",
         "image_position": "start",
         "text_alignment": "center",
         "heading_tag": "h1",
@@ -422,8 +422,8 @@
         "image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-11-12_at_11.31.07_AM.png",
-            "rotation": 0
+            "image": "shopify:\/\/shop_images\/testimonial-img-6.png",
+            "rotation": 6
           }
         }
       },
@@ -432,7 +432,7 @@
         "image-1"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "reveal_on_scroll": true,
         "separate_section_with_border": false,
         "media_position_desktop": "before_text",
@@ -443,7 +443,7 @@
         "media_mobile_alignment_offset": 0,
         "text_alignment": "center",
         "subheading": "About",
-        "title": "Showcase your product",
+        "title": "Holiday deals",
         "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.<\/p>",
         "button_1_text": "Shop now",
         "button_1_link": "",
@@ -451,6 +451,54 @@
         "button_2_text": "",
         "button_2_link": "",
         "button_2_style": "solid"
+      }
+    },
+    "text_with_icons_7jnxEA": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_tgfdLT": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Money-Back Guarantee",
+            "content": "<p>shop with confidence with out 30-day money-back guarantee, ensuring your satisfaction with every purchase.<\/p>"
+          }
+        },
+        "item_RXaib6": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-mailbox",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Unique Gifts",
+            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+          }
+        },
+        "item_yBBcih": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_tgfdLT",
+        "item_RXaib6",
+        "item_yBBcih"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
       }
     },
     "image_with_text_block_aemfYm": {
@@ -474,9 +522,9 @@
         "richtext_AbzyPD"
       ],
       "settings": {
-        "color_scheme": "",
-        "image_size": "md",
-        "image": "shopify:\/\/shop_images\/Screenshot_2024-11-09_at_1.48.18_PM.png",
+        "color_scheme": "scheme-2",
+        "image_size": "xs",
+        "image": "shopify:\/\/shop_images\/pexels-roman-odintsov-6334660.webp",
         "content_width": "sm",
         "enable_parallax": true,
         "remove_vertical_spacing": true
@@ -685,6 +733,7 @@
     "featured-collections",
     "image-with-text-scroll",
     "multiple-media-with-text",
+    "text_with_icons_7jnxEA",
     "image_with_text_block_aemfYm",
     "collection-list",
     "before-after",
