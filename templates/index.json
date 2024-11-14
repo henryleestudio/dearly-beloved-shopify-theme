@@ -193,14 +193,14 @@
             "link_text": ""
           }
         },
-        "image_with_text_hkQ9BW": {
+        "image_with_text_x6NrPh": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/testimonial-img-1.png",
+            "image": "shopify:\/\/shop_images\/testimonial-img-5.png",
             "video_link": "",
-            "title": "Jordan C.",
+            "title": "Jesse M.",
             "heading_tag": "h3",
-            "content": "<p>This is the perfect gift to express how much I love my wife. It will be a constant reminder of me when im gone. I will be getting one for my daughter.<\/p>",
+            "content": "<p>Didn't take long to receive the necklace. A nice looking display box and it lights up. I would possibly consider buying another one. And the price didn't break the bank either!<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -217,14 +217,14 @@
             "link_text": ""
           }
         },
-        "image_with_text_x6NrPh": {
+        "image_with_text_hkQ9BW": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/testimonial-img-5.png",
+            "image": "shopify:\/\/shop_images\/testimonial-img-1.png",
             "video_link": "",
-            "title": "Jesse M.",
+            "title": "Jordan C.",
             "heading_tag": "h3",
-            "content": "<p>Didn't take long to receive the necklace. A nice looking display box and it lights up. I would possibly consider buying another one. And the price didn't break the bank either!<\/p>",
+            "content": "<p>This is the perfect gift to express how much I love my wife. It will be a constant reminder of me when im gone. I will be getting one for my daughter.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -232,7 +232,7 @@
         "image_with_text_YeDmea": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/product-shot-7.webp",
+            "image": "shopify:\/\/shop_images\/testimonial-img-4.png",
             "video_link": "",
             "title": "Patricia W.",
             "heading_tag": "h3",
@@ -244,9 +244,9 @@
       },
       "block_order": [
         "image_with_text_JQFqiF",
-        "image_with_text_hkQ9BW",
-        "image_with_text_JE4CVf",
         "image_with_text_x6NrPh",
+        "image_with_text_JE4CVf",
+        "image_with_text_hkQ9BW",
         "image_with_text_YeDmea"
       ],
       "settings": {
@@ -362,8 +362,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/testimonial-img-6.png",
             "subheading": "",
-            "title": "#3",
-            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...<\/p>",
+            "title": "The Perfect Gift",
+            "content": "<p>Perfect for marking milestones, celebrating love, or simply showing appreciation, our collections go beyond beautiful design—they’re made to honor the emotions and memories that define us.<\/p>",
             "link_text": "Learn more",
             "link_url": "",
             "link_style": "solid"
@@ -374,8 +374,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/product-shot-4.png",
             "subheading": "",
-            "title": "#1",
-            "content": "<p>Welcome your customers to your store by sharing temporary offers or explaining to them what your products are about.<\/p>",
+            "title": "Perfect for Any Occasion",
+            "content": "<p>Perfect for marking milestones, celebrating love, or simply showing appreciation, our collections go beyond beautiful design—they’re made to honor the emotions and memories that define us.<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -386,8 +386,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/product-shot-6_4c797206-18ee-4aa2-8424-e8fcaa0404a7.webp",
             "subheading": "",
-            "title": "#2",
-            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.<\/p>",
+            "title": "Jewelry with Heart",
+            "content": "<p>Our jewelry is designed to celebrate life’s most meaningful connections. <\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -442,9 +442,9 @@
         "media_alignment_offset": 0,
         "media_mobile_alignment_offset": 0,
         "text_alignment": "center",
-        "subheading": "About",
-        "title": "Holiday deals",
-        "content": "<p>Write some content about your products, collections or brand. Use image or video to create an impactful layout.<\/p>",
+        "subheading": "Just for them",
+        "title": "Thoughtful Jewelry for Unforgettable Moments",
+        "content": "<p>Each piece is crafted with care, blending timeless elegance with a personal touch that makes every gift truly unique. <\/p>",
         "button_1_text": "Shop now",
         "button_1_link": "",
         "button_1_style": "solid",
@@ -472,8 +472,8 @@
             "icon": "picto-mailbox",
             "icon_width": 24,
             "mobile_icon_width": 24,
-            "title": "Unique Gifts",
-            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+            "title": "Perfect for Any Occasion",
+            "content": "<p>Ideal for Christmas, birthdays, or \"just because\" moments, making it versatile for every gift-giving need.<\/p>"
           }
         },
         "item_yBBcih": {
@@ -506,12 +506,14 @@
       "blocks": {
         "subheading_3i4afe": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "Image with text block"
           }
         },
         "richtext_AbzyPD": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
           }
