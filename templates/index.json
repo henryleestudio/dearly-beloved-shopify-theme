@@ -400,6 +400,7 @@
         "text_6m9YHL",
         "text_EhQxpH"
       ],
+      "disabled": true,
       "settings": {
         "separate_section_with_border": false,
         "scrolling_speed": 0.3,
