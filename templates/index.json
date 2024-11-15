@@ -482,7 +482,6 @@
         "subheading_3i4afe",
         "richtext_AbzyPD"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "image_size": "xs",
@@ -608,6 +607,54 @@
         "content": ""
       }
     },
+    "faq_hwdbQE": {
+      "type": "faq",
+      "blocks": {
+        "category_pMjxRK": {
+          "type": "category",
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_3mU9La": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "question_wGazJE": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "question_NkTjDB": {
+          "type": "question",
+          "settings": {
+            "question": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_pMjxRK",
+        "question_3mU9La",
+        "question_wGazJE",
+        "question_NkTjDB"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    },
     "text_with_icons_7jnxEA": {
       "type": "text-with-icons",
       "blocks": {
@@ -655,83 +702,6 @@
         "text_color": "",
         "text_alignment": "center"
       }
-    },
-    "before-after": {
-      "type": "before-after",
-      "blocks": {
-        "before": {
-          "type": "before",
-          "settings": {
-            "color_scheme": "",
-            "text": "Before",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link"
-          }
-        },
-        "after": {
-          "type": "after",
-          "settings": {
-            "color_scheme": "",
-            "text": "After",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "before",
-        "after"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Before\/after",
-        "content": "<p>Showcase your product benefit by using before\/after image comparison.<\/p>",
-        "cursor_direction": "horizontal",
-        "cursor_initial_position": 50,
-        "cursor_background": "#ffffff",
-        "cursor_arrows_color": "#000000"
-      }
-    },
-    "shop-the-look": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look-1": {
-          "type": "look",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/jewelry-to-my-wife-forever-love-necklace-gift-set-ss568-39970759114993_1946x_9a8b8ae9-9a35-4360-b404-97146b256a05.jpg",
-            "hot_spots_background": "#ffffff",
-            "product_1": "",
-            "product_1_horizontal_position": 55,
-            "product_1_vertical_position": 30,
-            "product_2": "",
-            "product_2_horizontal_position": 25,
-            "product_2_vertical_position": 40,
-            "product_3": "",
-            "product_3_horizontal_position": 65,
-            "product_3_vertical_position": 60,
-            "product_4": "",
-            "product_4_horizontal_position": 85,
-            "product_4_vertical_position": 85
-          }
-        }
-      },
-      "block_order": [
-        "look-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "subheading": "",
-        "title": "SHOP THE LOOK",
-        "content": "",
-        "popover_title": "Shop the look"
-      }
     }
   },
   "order": [
@@ -746,7 +716,6 @@
     "image_with_text_block_aemfYm",
     "collection-list",
     "text_with_icons_7jnxEA",
-    "before-after",
-    "shop-the-look"
+    "faq_hwdbQE"
   ]
 }
