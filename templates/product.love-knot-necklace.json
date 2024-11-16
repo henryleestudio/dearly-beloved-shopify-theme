@@ -728,6 +728,24 @@
         "content": ""
       }
     },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Related products",
+        "content": ""
+      }
+    },
     "text_with_icons_riDAXa": {
       "type": "text-with-icons",
       "blocks": {
@@ -775,24 +793,6 @@
         "text_color": "",
         "text_alignment": "center"
       }
-    },
-    "related-products": {
-      "type": "related-products",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "recommendations_count": 10,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "",
-        "title": "Related products",
-        "content": ""
-      }
     }
   },
   "order": [
@@ -803,12 +803,12 @@
     "logo_list_BnGBGX",
     "multi_column_dGtMzB",
     "media_grid_BTGkpM",
-    "faq_Ggqfjp",
     "tabs_mHVH6d",
     "rich_text_XmtHiQ",
     "rich_text_6nRbdm",
-    "media_grid_Yr8U9D",
     "text_with_icons_riDAXa",
-    "related-products"
+    "media_grid_Yr8U9D",
+    "related-products",
+    "faq_Ggqfjp"
   ]
 }
