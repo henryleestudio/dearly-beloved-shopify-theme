@@ -119,6 +119,81 @@
         "max_image_zoom_level": 3
       }
     },
+    "media_grid_BTGkpM": {
+      "type": "media-grid",
+      "blocks": {
+        "image_KxM4EM": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/love-knot-lifestyle.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XUcz67": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/product-shot-6.webp",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_q8jwQi": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/product-shot-3.webp",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_KxM4EM",
+        "image_XUcz67",
+        "image_q8jwQi"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "image_with_text_7fRDF6": {
       "type": "image-with-text",
       "blocks": {
@@ -362,178 +437,6 @@
         "content": ""
       }
     },
-    "media_grid_BTGkpM": {
-      "type": "media-grid",
-      "blocks": {
-        "image_KxM4EM": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/love-knot-lifestyle.jpg",
-            "column_count": "8",
-            "row_count": 2,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_XUcz67": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/product-shot-6.webp",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_q8jwQi": {
-          "type": "image",
-          "settings": {
-            "color_scheme": "",
-            "image": "shopify://shop_images/product-shot-3.webp",
-            "column_count": "4",
-            "row_count": 1,
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_position": "place-self-center text-center",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_KxM4EM",
-        "image_XUcz67",
-        "image_q8jwQi"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 180,
-        "section_width": "lg",
-        "spacing": "md",
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
-    "faq_Ggqfjp": {
-      "type": "faq",
-      "blocks": {
-        "category_kgYENK": {
-          "type": "category",
-          "disabled": true,
-          "settings": {
-            "title": "Order",
-            "icon": "none",
-            "icon_width": 16
-          }
-        },
-        "question_mFHYtD": {
-          "type": "question",
-          "settings": {
-            "question": "Features",
-            "answer": "<ul><li>14k white gold over stainless steel or 18k yellow gold over stainless steel</li><li>6mm round cut cubic zirconia stone</li><li>Pendant dimensions: 0.6\" (15.7mm) height / 0.23\" (6mm) width</li><li>Adjustable chain length: 18\" - 22\" (45.72cm - 55.88cm)</li><li>Lobster clasp attachment</li></ul>"
-          }
-        },
-        "question_q7p8RC": {
-          "type": "question",
-          "settings": {
-            "question": "What does my order include?",
-            "answer": "<p>The order includes: the necklace, or the jewelry, the card with the message, and the Gift box of your choice.</p>"
-          }
-        },
-        "question_d37GKE": {
-          "type": "question",
-          "settings": {
-            "question": "Does my purchase come in the deluxe wooden box with light?",
-            "answer": "<p>We offer 2 styles of boxes: the Deluxe Wooden Box With Light and the Standard Box (included). You will receive the one you chose at the time of purchase.</p>"
-          }
-        },
-        "question_ytyVDG": {
-          "type": "question",
-          "settings": {
-            "question": "Will I receive a tracking number to track my order?",
-            "answer": "<p>Yes! Once you place the order, you will receive an email confirmation. You will then receive another email with the tracking information within the next 24-48 business hours. You can track it here:<a href=\"https://kendallscollection.com/pages/track-my-order\" target=\"_blank\" title=\"https://kendallscollection.com/pages/track-my-order\">Track Order.</a></p>"
-          }
-        },
-        "question_D67nXp": {
-          "type": "question",
-          "settings": {
-            "question": "Does the necklace change color?",
-            "answer": "<p>No! The necklace and pendant are made of high-quality materials with a 14k and 18k gold finish and have been properly treated to maintain their properties. We always recommend applying proper care by avoiding exposure to chemicals and moisture, and storing it in a safe and dry place when not in use.</p>"
-          }
-        },
-        "question_RFaJPF": {
-          "type": "question",
-          "settings": {
-            "question": "Do you ship to the United States?",
-            "answer": "<p>Yes, we ship to all states in the United States. We also ship to Puerto Rico, Canada, and Europe. NOTE: We do not ship to Mexico or Colombia.</p>"
-          }
-        },
-        "question_Y6mgFV": {
-          "type": "question",
-          "settings": {
-            "question": "What is the delivery time?",
-            "answer": "<p>Our delivery time is 3-7 business days to anywhere in the United States. We offer 3 shipping options: Free Shipping, Standard Shipping, and Fast Shipping.</p>"
-          }
-        },
-        "question_kfKqBd": {
-          "type": "question",
-          "settings": {
-            "question": "How can I contact you in case I need to?",
-            "answer": "<p>You have 2 ways to get in touch with us. You can contact us through our Email Support (<a href=\"mailto:hello@KendallsCollection.com\">hello@KendallsCollection.com</a>) and you can also chat with us through our Live Chat on FB Messenger:<a href=\"https://m.me/KendallsCollectionOnline\">https://m.me/KendallsCollectionOnline</a>.</p>"
-          }
-        },
-        "question_7iw7Ak": {
-          "type": "question",
-          "settings": {
-            "question": "What material are the necklaces made of?",
-            "answer": "<p>In most cases, our necklaces and pendants are made of surgical stainless steel with a coating of white, yellow, or rose gold, adorned with delicate clear crystals surrounded by brilliant cubic zirconia. We also have special items made of certified solid gold that can be ordered from our catalog.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "category_kgYENK",
-        "question_mFHYtD",
-        "question_q7p8RC",
-        "question_d37GKE",
-        "question_ytyVDG",
-        "question_D67nXp",
-        "question_RFaJPF",
-        "question_Y6mgFV",
-        "question_kfKqBd",
-        "question_7iw7Ak"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "show_categories": false,
-        "subheading": "",
-        "title": "",
-        "content": ""
-      }
-    },
     "tabs_mHVH6d": {
       "type": "tabs",
       "blocks": {
@@ -655,6 +558,54 @@
         "remove_vertical_spacing": false
       }
     },
+    "text_with_icons_riDAXa": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_tgxXhK": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-jewelry",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Perfect for Any Occasion",
+            "content": "<p>Ideal for Christmas, birthdays, or \"just because\" moments, making it versatile for every gift-giving need</p>"
+          }
+        },
+        "item_8b9F3B": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Money-Back Guarantee",
+            "content": "<p>shop with confidence with our 30-day money-back guarantee, ensuring your satisfaction with every purchase</p>"
+          }
+        },
+        "item_Wtydqm": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-gift",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Gift Ready",
+            "content": "<p>Move beyond the mundane with a heartfelt message, allowing you to speak directly from your soul to theirs</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_tgxXhK",
+        "item_8b9F3B",
+        "item_Wtydqm"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
     "media_grid_Yr8U9D": {
       "type": "media-grid",
       "blocks": {
@@ -746,63 +697,112 @@
         "content": ""
       }
     },
-    "text_with_icons_riDAXa": {
-      "type": "text-with-icons",
+    "faq_Ggqfjp": {
+      "type": "faq",
       "blocks": {
-        "item_tgxXhK": {
-          "type": "item",
+        "category_kgYENK": {
+          "type": "category",
+          "disabled": true,
           "settings": {
-            "icon": "picto-jewelry",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Perfect for Any Occasion",
-            "content": "<p>Ideal for Christmas, birthdays, or \"just because\" moments, making it versatile for every gift-giving need</p>"
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
           }
         },
-        "item_8b9F3B": {
-          "type": "item",
+        "question_mFHYtD": {
+          "type": "question",
           "settings": {
-            "icon": "picto-credit-card",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Money-Back Guarantee",
-            "content": "<p>shop with confidence with our 30-day money-back guarantee, ensuring your satisfaction with every purchase</p>"
+            "question": "Features",
+            "answer": "<ul><li>14k white gold over stainless steel or 18k yellow gold over stainless steel</li><li>6mm round cut cubic zirconia stone</li><li>Pendant dimensions: 0.6\" (15.7mm) height / 0.23\" (6mm) width</li><li>Adjustable chain length: 18\" - 22\" (45.72cm - 55.88cm)</li><li>Lobster clasp attachment</li></ul>"
           }
         },
-        "item_Wtydqm": {
-          "type": "item",
+        "question_q7p8RC": {
+          "type": "question",
           "settings": {
-            "icon": "picto-gift",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Gift Ready",
-            "content": "<p>Move beyond the mundane with a heartfelt message, allowing you to speak directly from your soul to theirs</p>"
+            "question": "What does my order include?",
+            "answer": "<p>The order includes: the necklace, or the jewelry, the card with the message, and the Gift box of your choice.</p>"
+          }
+        },
+        "question_d37GKE": {
+          "type": "question",
+          "settings": {
+            "question": "Does my purchase come in the deluxe wooden box with light?",
+            "answer": "<p>We offer 2 styles of boxes: the Deluxe Wooden Box With Light and the Standard Box (included). You will receive the one you chose at the time of purchase.</p>"
+          }
+        },
+        "question_ytyVDG": {
+          "type": "question",
+          "settings": {
+            "question": "Will I receive a tracking number to track my order?",
+            "answer": "<p>Yes! Once you place the order, you will receive an email confirmation. You will then receive another email with the tracking information within the next 24-48 business hours. You can track it here:<a href=\"https://kendallscollection.com/pages/track-my-order\" target=\"_blank\" title=\"https://kendallscollection.com/pages/track-my-order\">Track Order.</a></p>"
+          }
+        },
+        "question_D67nXp": {
+          "type": "question",
+          "settings": {
+            "question": "Does the necklace change color?",
+            "answer": "<p>No! The necklace and pendant are made of high-quality materials with a 14k and 18k gold finish and have been properly treated to maintain their properties. We always recommend applying proper care by avoiding exposure to chemicals and moisture, and storing it in a safe and dry place when not in use.</p>"
+          }
+        },
+        "question_RFaJPF": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship to the United States?",
+            "answer": "<p>Yes, we ship to all states in the United States. We also ship to Puerto Rico, Canada, and Europe. NOTE: We do not ship to Mexico or Colombia.</p>"
+          }
+        },
+        "question_Y6mgFV": {
+          "type": "question",
+          "settings": {
+            "question": "What is the delivery time?",
+            "answer": "<p>Our delivery time is 3-7 business days to anywhere in the United States. We offer 3 shipping options: Free Shipping, Standard Shipping, and Fast Shipping.</p>"
+          }
+        },
+        "question_kfKqBd": {
+          "type": "question",
+          "settings": {
+            "question": "How can I contact you in case I need to?",
+            "answer": "<p>You have 2 ways to get in touch with us. You can contact us through our Email Support (<a href=\"mailto:hello@KendallsCollection.com\">hello@KendallsCollection.com</a>) and you can also chat with us through our Live Chat on FB Messenger:<a href=\"https://m.me/KendallsCollectionOnline\">https://m.me/KendallsCollectionOnline</a>.</p>"
+          }
+        },
+        "question_7iw7Ak": {
+          "type": "question",
+          "settings": {
+            "question": "What material are the necklaces made of?",
+            "answer": "<p>In most cases, our necklaces and pendants are made of surgical stainless steel with a coating of white, yellow, or rose gold, adorned with delicate clear crystals surrounded by brilliant cubic zirconia. We also have special items made of certified solid gold that can be ordered from our catalog.</p>"
           }
         }
       },
       "block_order": [
-        "item_tgxXhK",
-        "item_8b9F3B",
-        "item_Wtydqm"
+        "category_kgYENK",
+        "question_mFHYtD",
+        "question_q7p8RC",
+        "question_d37GKE",
+        "question_ytyVDG",
+        "question_D67nXp",
+        "question_RFaJPF",
+        "question_Y6mgFV",
+        "question_kfKqBd",
+        "question_7iw7Ak"
       ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "stack_on_mobile": false,
-        "icon_color": "",
-        "text_color": "",
-        "text_alignment": "center"
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
       }
     }
   },
   "order": [
     "main",
+    "media_grid_BTGkpM",
     "image_with_text_7fRDF6",
     "image_with_text_overlay_Rg8FnX",
     "images_with_text_scroll_FEkNXU",
     "logo_list_BnGBGX",
     "multi_column_dGtMzB",
-    "media_grid_BTGkpM",
     "tabs_mHVH6d",
     "rich_text_XmtHiQ",
     "rich_text_6nRbdm",
