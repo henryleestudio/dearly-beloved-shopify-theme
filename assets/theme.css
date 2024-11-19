@@ -559,7 +559,7 @@ height-observer {
   overflow: hidden;
 }
 
-.content-over-media:before {
+/* .content-over-media:before {
   content: "";
   background: var(--content-over-media-gradient-overlay, rgb(var(--content-over-media-overlay)));
   border-radius: inherit;
@@ -567,7 +567,7 @@ height-observer {
   pointer-events: none;
   position: absolute;
   inset: 0;
-}
+} */
 
 .content-over-media > picture {
   display: contents;
