@@ -347,6 +347,7 @@
         },
         "item-2": {
           "type": "image_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/product-shot-6_4c797206-18ee-4aa2-8424-e8fcaa0404a7.webp",
             "subheading": "",
@@ -422,7 +423,7 @@
         "image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-roman-odintsov-6334545.webp",
+            "image": "shopify:\/\/shop_images\/asset_4380_transformation_12027_1.jpg",
             "rotation": 0
           }
         },
@@ -685,7 +686,7 @@
         "question_NkTjDB": {
           "type": "question",
           "settings": {
-            "question": "Any question?",
+            "question": "Something here",
             "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
           }
         }
@@ -697,9 +698,9 @@
         "question_NkTjDB"
       ],
       "settings": {
-        "section-id": "faq-home-section",
+        "section-id": "#faq-home-section",
         "color_scheme": "",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "show_categories": false,
         "subheading": "",
         "title": "Frequently Asked Questions",

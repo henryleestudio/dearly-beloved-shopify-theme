@@ -28,13 +28,6 @@
           "type": "separator",
           "settings": {}
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false,
-            "show_below_gallery": false
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -60,8 +53,16 @@
             "payment_button_text_color": ""
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
         "complementary_products": {
           "type": "complementary_products",
+          "disabled": true,
           "settings": {
             "title": "Pairs well with",
             "products_count": 2,
@@ -88,10 +89,10 @@
         "price",
         "payment_terms",
         "separator",
-        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "description",
         "complementary_products",
         "image_eNDAj6"
       ],
@@ -100,10 +101,10 @@
         "container_size": "lg",
         "product_info_size": 35,
         "show_sticky_add_to_cart": true,
-        "center_basic_info": false,
-        "desktop_media_layout": "carousel_thumbnails_left",
+        "center_basic_info": true,
+        "desktop_media_layout": "grid",
         "desktop_media_grid_gap": 30,
-        "mobile_controls": "dots",
+        "mobile_controls": "thumbnails",
         "enable_media_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": true,
@@ -173,6 +174,7 @@
         "image_XUcz67",
         "image_q8jwQi"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": false,
@@ -309,8 +311,8 @@
         "image_with_text_eUXRUL"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "background_image": "shopify:\/\/shop_images\/AdobeStock_871980568_Preview_1.jpg",
+        "color_scheme": "scheme-3",
+        "background_image": "shopify:\/\/shop_images\/pexels-mikhail-nilov-7676887.jpg",
         "image_position": "start",
         "text_alignment": "center",
         "heading_tag": "h3",
@@ -700,6 +702,20 @@
             "icon_width": 16
           }
         },
+        "question_3cjcxC": {
+          "type": "question",
+          "settings": {
+            "question": "Shipping Information",
+            "answer": "<p>We utilize a made to order business model which means the item you received is one that was literally made for you! As soon as you ordered it, our production partner printed the item and shipped it to your door.<\/p><p>For this reason, it cannot be returned. If you'd like to check out our store, and perhaps order something else we'd like to offer you a 50% discount code that will work on any item we sell. Please let us know if you decide to choose something else!<\/p>"
+          }
+        },
+        "question_ytyVDG": {
+          "type": "question",
+          "settings": {
+            "question": "Will I receive a tracking number?",
+            "answer": "<h3>Order Tracking<\/h3><p>As soon as your order ships, you will receive a confirmation email containing a tracking number. Use this number to track your shipment and stay updated on its journey to your doorstep.<br\/><br\/>If you have any questions about your order or require assistance, feel free to reach out to us at <a><strong>connect@dearlybeloved.gifts<\/strong><\/a>.<br\/><br\/>Yes! Once you place the order, you will receive an email confirmation. You will then receive another email with the tracking information within the next 24-48 business hours. You can track it here:<a href=\"https:\/\/kendallscollection.com\/pages\/track-my-order\" target=\"_blank\" title=\"https:\/\/kendallscollection.com\/pages\/track-my-order\">Track Order.<\/a><\/p>"
+          }
+        },
         "question_Y6mgFV": {
           "type": "question",
           "settings": {
@@ -717,7 +733,7 @@
         "question_mFHYtD": {
           "type": "question",
           "settings": {
-            "question": "Features",
+            "question": "Features & Materials",
             "answer": "<ul><li>14k white gold over stainless steel or 18k yellow gold over stainless steel<\/li><li>6mm round cut cubic zirconia stone<\/li><li>Pendant dimensions: 0.6\" (15.7mm) height \/ 0.23\" (6mm) width<\/li><li>Adjustable chain length: 18\" - 22\" (45.72cm - 55.88cm)<\/li><li>Lobster clasp attachment<\/li><\/ul>"
           }
         },
@@ -726,13 +742,6 @@
           "settings": {
             "question": "Does my purchase come in the deluxe wooden box with light?",
             "answer": "<p>We offer 2 styles of boxes: the Deluxe Wooden Box With Light and the Standard Box (included). You will receive the one you chose at the time of purchase.<\/p>"
-          }
-        },
-        "question_ytyVDG": {
-          "type": "question",
-          "settings": {
-            "question": "Will I receive a tracking number to track my order?",
-            "answer": "<p>Yes! Once you place the order, you will receive an email confirmation. You will then receive another email with the tracking information within the next 24-48 business hours. You can track it here:<a href=\"https:\/\/kendallscollection.com\/pages\/track-my-order\" target=\"_blank\" title=\"https:\/\/kendallscollection.com\/pages\/track-my-order\">Track Order.<\/a><\/p>"
           }
         },
         "question_D67nXp": {
@@ -768,11 +777,12 @@
       },
       "block_order": [
         "category_kgYENK",
+        "question_3cjcxC",
+        "question_ytyVDG",
         "question_Y6mgFV",
         "question_q7p8RC",
         "question_mFHYtD",
         "question_d37GKE",
-        "question_ytyVDG",
         "question_D67nXp",
         "question_RFaJPF",
         "question_kfKqBd",
