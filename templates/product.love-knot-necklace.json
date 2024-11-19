@@ -705,22 +705,22 @@
         "question_3cjcxC": {
           "type": "question",
           "settings": {
-            "question": "Shipping Information",
-            "answer": "<p>We utilize a made to order business model which means the item you received is one that was literally made for you! As soon as you ordered it, our production partner printed the item and shipped it to your door.<\/p><p>For this reason, it cannot be returned. If you'd like to check out our store, and perhaps order something else we'd like to offer you a 50% discount code that will work on any item we sell. Please let us know if you decide to choose something else!<\/p>"
+            "question": "Shipping Details",
+            "answer": "<p><strong>WE ARE A UNITED STATES BASED COMPANY<\/strong><br\/><br\/>We utilize a made to order business model which means the item you received is one that was literally made for you! As soon as you ordered it, our production partner printed the item and shipped it to your door.<\/p><p>For this reason, it cannot be returned. If you'd like to check out our store, and perhaps order something else we'd like to offer you a 50% discount code that will work on any item we sell. Please let us know if you decide to choose something else!<\/p>"
           }
         },
         "question_ytyVDG": {
           "type": "question",
           "settings": {
             "question": "Will I receive a tracking number?",
-            "answer": "<h3>Order Tracking<\/h3><p>As soon as your order ships, you will receive a confirmation email containing a tracking number. Use this number to track your shipment and stay updated on its journey to your doorstep.<br\/><br\/>If you have any questions about your order or require assistance, feel free to reach out to us at <a><strong>connect@dearlybeloved.gifts<\/strong><\/a>.<br\/><br\/>Yes! Once you place the order, you will receive an email confirmation. You will then receive another email with the tracking information within the next 24-48 business hours. You can track it here:<a href=\"https:\/\/kendallscollection.com\/pages\/track-my-order\" target=\"_blank\" title=\"https:\/\/kendallscollection.com\/pages\/track-my-order\">Track Order.<\/a><\/p>"
+            "answer": "<p><strong>ORDER TRACKING<\/strong><br\/><br\/>As soon as your order ships, you will receive a confirmation email containing a tracking number. Use this number to track your shipment and stay updated on its journey to your doorstep.<br\/><br\/>If you have any questions about your order or require assistance, feel free to reach out to us at <a>connect@dearlybeloved.gifts<\/a>.<br\/><br\/>Yes! Once you place the order, you will receive an email confirmation. You will then receive another email with the tracking information within the next 24-48 business hours. You can track it here:<a href=\"https:\/\/kendallscollection.com\/pages\/track-my-order\" target=\"_blank\" title=\"https:\/\/kendallscollection.com\/pages\/track-my-order\">Track Order.<\/a><\/p>"
           }
         },
         "question_Y6mgFV": {
           "type": "question",
           "settings": {
-            "question": "What is the delivery time?",
-            "answer": "<h3>Production Time<\/h3><p>Once you place an order, our skilled artisans dedicate 1-2 business days to crafting your item with care and attention to detail.<\/p><ul><li>Production does not occur on weekends or holidays.<\/li><\/ul><h3>Shipping Time<\/h3><p>After production is complete, your order is handed over to our trusted shipping partners. Shipping typically takes <strong>3-7 business days<\/strong>.<\/p><ul><li>Shipping times may vary based on your location and unforeseen circumstances such as weather or carrier delays.<\/li><\/ul>"
+            "question": "How soon will I get my orders?",
+            "answer": "<p><strong>PRODUCTION TIME<\/strong><br\/><br\/>Once you place an order, our skilled artisans dedicate 1-2 business days to crafting your item with care and attention to detail.<\/p><ul><li>Production does not occur on weekends or holidays.<\/li><\/ul><p><strong><br\/>SHIPPING TIME<\/strong><br\/><br\/>After production is complete, your order is handed over to our trusted shipping partners. Shipping typically takes <strong>3-7 business days<\/strong>.<\/p><ul><li>Shipping times may vary based on your location and unforeseen circumstances such as weather or carrier delays.<\/li><\/ul>"
           }
         },
         "question_q7p8RC": {
@@ -740,8 +740,8 @@
         "question_d37GKE": {
           "type": "question",
           "settings": {
-            "question": "Does my purchase come in the deluxe wooden box with light?",
-            "answer": "<p>We offer 2 styles of boxes: the Deluxe Wooden Box With Light and the Standard Box (included). You will receive the one you chose at the time of purchase.<\/p>"
+            "question": "Does it come in the deluxe wooden box with light? What's included?",
+            "answer": "<p>The order includes: the necklace, or the jewelry, the card with the message, and the Gift box of your choice.<br\/><br\/>We offer 2 styles of boxes: the Deluxe Wooden Box With Light and the Standard Box (included). You will receive the one you chose at the time of purchase.<\/p>"
           }
         },
         "question_D67nXp": {
@@ -761,6 +761,7 @@
         },
         "question_kfKqBd": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "question": "How can I contact you in case I need to?",
             "answer": "<p>You have 2 ways to get in touch with us. You can contact us through our Email Support connect@dearlydeloved.gifts<\/p>"
