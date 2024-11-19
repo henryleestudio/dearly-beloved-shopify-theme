@@ -6,10 +6,11 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hero-img-black-friday.webp",
+            "image": "shopify:\/\/shop_images\/hero-img-black-friday-2.webp",
+            "mobile_image": "shopify:\/\/shop_images\/mobile-hero-img-black-friday.webp",
             "subheading": "",
             "title": "",
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 1200,
             "button_1_text": "",
