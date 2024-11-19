@@ -1,3 +1,19 @@
+// Hero Overlay
+
+.content-over-media:before {
+  content: "";
+  // background: var(--content-over-media-gradient-overlay, rgb(var(--content-over-media-overlay)));
+  background: #00000000;
+  border-radius: inherit;
+  z-index: 1;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 // Menu button
 
 a.stiky-btn {

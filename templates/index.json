@@ -6,12 +6,12 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hero-img-5.jpg",
+            "image": "shopify:\/\/shop_images\/hero-img-black-friday.webp",
             "subheading": "",
-            "title": "FOR THE MOMENTS WORDS  ALONE CAN'T EXPRESS",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
+            "content_max_width": 1200,
             "button_1_text": "",
             "button_1_link": "",
             "button_1_style": "solid",
@@ -625,7 +625,7 @@
         "item_tgfdLT": {
           "type": "item",
           "settings": {
-            "icon": "picto-credit-card",
+            "icon": "picto-money",
             "icon_width": 24,
             "mobile_icon_width": 24,
             "title": "Money-Back Guarantee",
