@@ -1,1 +1,27 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"contact-form":{"type":"contact","settings":{}}},"order":["main","contact-form"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "contact-form": {
+      "type": "contact",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Contact Us",
+        "content": "<p>Whether you have questions about our products, need assistance, or want to share your experience, our dedicated team is here for you.<br\/><br\/>We’re just a message away and eager to help!<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact-form"
+  ]
+}
