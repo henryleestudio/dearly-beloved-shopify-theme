@@ -626,7 +626,7 @@
         "item_tgfdLT": {
           "type": "item",
           "settings": {
-            "icon": "picto-money",
+            "icon": "picto-success",
             "icon_width": 24,
             "mobile_icon_width": 24,
             "title": "Money-Back Guarantee",
@@ -673,22 +673,44 @@
         "question_3mU9La": {
           "type": "question",
           "settings": {
-            "question": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "question": "Shipping Details",
+            "answer": "<p><strong>WE ARE A UNITED STATES BASED COMPANY<\/strong><br\/><br\/>We utilize a made to order business model which means the item you received is one that was literally made for you! As soon as you ordered it, our production partner printed the item and shipped it to your door.<\/p><p>For this reason, it cannot be returned. If you'd like to check out our store, and perhaps order something else we'd like to offer you a 50% discount code that will work on any item we sell. Please let us know if you decide to choose something else!<\/p>"
           }
         },
         "question_wGazJE": {
           "type": "question",
           "settings": {
-            "question": "How long will it take to get my orders?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "question": "Will I receive a tracking number?",
+            "answer": "<p><strong>ORDER TRACKING<\/strong><br\/><br\/>As soon as your order ships, you will receive a confirmation email containing a tracking number. Use this number to track your shipment and stay updated on its journey to your doorstep.<br\/><br\/>If you have any questions about your order or require assistance, feel free to reach out to us at <a>connect@dearlybeloved.gifts<\/a>.<br\/><br\/>Yes! Once you place the order, you will receive an email confirmation. You will then receive another email with the tracking information within the next 24-48 business hours. You can track it here:<a href=\"https:\/\/kendallscollection.com\/pages\/track-my-order\" target=\"_blank\" title=\"https:\/\/kendallscollection.com\/pages\/track-my-order\">Track Order.<\/a><\/p>"
           }
         },
         "question_NkTjDB": {
           "type": "question",
           "settings": {
-            "question": "Something here",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "question": "How soon will I get my orders?",
+            "answer": "<p><strong>PRODUCTION TIME<\/strong><br\/><br\/>Once you place an order, our skilled artisans dedicate 1-2 business days to crafting your item with care and attention to detail.<\/p><ul><li>Production does not occur on weekends or holidays.<\/li><\/ul><p><strong><br\/>SHIPPING TIME<\/strong><br\/><br\/>After production is complete, your order is handed over to our trusted shipping partners. Shipping typically takes <strong>3-7 business days<\/strong>.<\/p><ul><li>Shipping times may vary based on your location and unforeseen circumstances such as weather or carrier delays.<\/li><\/ul>"
+          }
+        },
+        "question_wE8zfR": {
+          "type": "question",
+          "settings": {
+            "question": "Does it come in the deluxe wooden box with light? What's included?",
+            "answer": "<p>The order includes: the necklace, or the jewelry, the card with the message, and the Gift box of your choice.<br\/><br\/>We offer 2 styles of boxes: the Deluxe Wooden Box With Light and the Standard Box (included). You will receive the one you chose at the time of purchase.<\/p>"
+          }
+        },
+        "question_6TPAgq": {
+          "type": "question",
+          "settings": {
+            "question": "Does the necklace change color?",
+            "answer": "<p>No! The necklace and pendant are made of high-quality materials with a 14k and 18k gold finish and have been properly treated to maintain their properties. We always recommend applying proper care by avoiding exposure to chemicals and moisture, and storing it in a safe and dry place when not in use.<\/p>"
+          }
+        },
+        "question_Yj9KMk": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question": "How can I contact you in case I need to?",
+            "answer": "<p>You have 2 ways to get in touch with us. You can contact us through our Email Support connect@dearlydeloved.gifts<\/p>"
           }
         }
       },
@@ -696,7 +718,10 @@
         "category_pMjxRK",
         "question_3mU9La",
         "question_wGazJE",
-        "question_NkTjDB"
+        "question_NkTjDB",
+        "question_wE8zfR",
+        "question_6TPAgq",
+        "question_Yj9KMk"
       ],
       "settings": {
         "section-id": "#faq-home-section",
