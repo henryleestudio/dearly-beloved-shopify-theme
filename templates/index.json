@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "slideshow": {
@@ -88,7 +79,7 @@
         "logo_Qrbi84": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/TK_Maxx-Logo.png",
+            "logo": "shopify:\/\/shop_images\/TK_Maxx-Logo.png",
             "logo_width": 250,
             "link": ""
           }
@@ -96,7 +87,7 @@
         "logo_YKHTT7": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/macy_s-logo.png",
+            "logo": "shopify:\/\/shop_images\/macy_s-logo.png",
             "logo_width": 250,
             "link": ""
           }
@@ -104,7 +95,7 @@
         "logo_paxEEU": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/marshalls-logo.png",
+            "logo": "shopify:\/\/shop_images\/marshalls-logo.png",
             "logo_width": 210,
             "link": ""
           }
@@ -112,7 +103,7 @@
         "logo_Xcn96P": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/bloomingdales-logo.png",
+            "logo": "shopify:\/\/shop_images\/bloomingdales-logo.png",
             "logo_width": 250,
             "link": ""
           }
@@ -120,7 +111,7 @@
         "logo_9e9EC4": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/gap-logo.png",
+            "logo": "shopify:\/\/shop_images\/gap-logo.png",
             "logo_width": 80,
             "link": ""
           }
@@ -128,7 +119,7 @@
         "logo_rnDyrP": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/nordstrom-logo.png",
+            "logo": "shopify:\/\/shop_images\/nordstrom-logo.png",
             "logo_width": 250,
             "link": ""
           }
@@ -158,11 +149,12 @@
         "image_with_text_JQFqiF": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/testimonial-img-2.png",
-            "video_link": "https://www.youtube.com/watch?v=5O9qbuhsvsQ&list=PLpctalp71xOB8jdIG-OYseZdxA_iloj9_&index=2",
+            "image": "shopify:\/\/shop_images\/testimonial-img-2.png",
+            "video": "shopify:\/\/files\/videos\/ever-love-vid-compressed.mp4",
+            "video_link": "",
             "title": "Dave B.",
             "heading_tag": "h3",
-            "content": "<p>She won't stop smiling. I Got this pendant for my girl, and man, she lit up like the 4th of July. It's more than just the bling, you know? It's like it says everything without speaking a word.</p>",
+            "content": "<p>She won't stop smiling. I Got this pendant for my girl, and man, she lit up like the 4th of July. It's more than just the bling, you know? It's like it says everything without speaking a word.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -170,11 +162,11 @@
         "image_with_text_hkQ9BW": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/testimonial-img-5.webp",
+            "image": "shopify:\/\/shop_images\/testimonial-img-5.webp",
             "video_link": "",
             "title": "Jordan C.",
             "heading_tag": "h3",
-            "content": "<p>This is the perfect gift to express how much I love my wife. It will be a constant reminder of me when im gone. I will be getting one for my daughter.</p>",
+            "content": "<p>This is the perfect gift to express how much I love my wife. It will be a constant reminder of me when im gone. I will be getting one for my daughter.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -182,11 +174,11 @@
         "image_with_text_x6NrPh": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/testimonial-img-5.png",
+            "image": "shopify:\/\/shop_images\/testimonial-img-5.png",
             "video_link": "",
             "title": "Jesse M.",
             "heading_tag": "h3",
-            "content": "<p>Didn't take long to receive the necklace. A nice looking display box and it lights up. I would possibly consider buying another one. And the price didn't break the bank either!</p>",
+            "content": "<p>Didn't take long to receive the necklace. A nice looking display box and it lights up. I would possibly consider buying another one. And the price didn't break the bank either!<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -194,11 +186,11 @@
         "image_with_text_JE4CVf": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/testimonial-img-3.png",
+            "image": "shopify:\/\/shop_images\/testimonial-img-3.png",
             "video_link": "",
             "title": "Richard H.",
             "heading_tag": "h3",
-            "content": "<p>My wife was ecstatic over the gift and very impressed with the quality, the beautiful box it came in and how bright and impressive the lighting was. It was a huge hit.</p>",
+            "content": "<p>My wife was ecstatic over the gift and very impressed with the quality, the beautiful box it came in and how bright and impressive the lighting was. It was a huge hit.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -206,11 +198,11 @@
         "image_with_text_YeDmea": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/testimonial-img-7.png",
+            "image": "shopify:\/\/shop_images\/testimonial-img-7.png",
             "video_link": "",
             "title": "Patricia W.",
             "heading_tag": "h3",
-            "content": "<p>The purchase came exactly as portrayed online. I absolutely love my necklace! It is everything I could have imagined and I am extremely pleased. Great product!</p>",
+            "content": "<p>The purchase came exactly as portrayed online. I absolutely love my necklace! It is everything I could have imagined and I am extremely pleased. Great product!<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -259,7 +251,7 @@
           "type": "richtext",
           "disabled": true,
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         },
         "button_CdHUY6": {
@@ -267,7 +259,7 @@
           "settings": {
             "style": "solid",
             "text": "Shop now",
-            "url": "shopify://collections/all",
+            "url": "shopify:\/\/collections\/all",
             "background": "",
             "text_color": ""
           }
@@ -296,7 +288,7 @@
             "collection": "gifts-for-her",
             "products_count": 8,
             "title": "GIFTS FOR HER",
-            "link_url": "shopify://collections/gifts-for-her",
+            "link_url": "shopify:\/\/collections\/gifts-for-her",
             "link_text": "View all"
           }
         },
@@ -334,10 +326,10 @@
         "item-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/product-shot-4.png",
+            "image": "shopify:\/\/shop_images\/product-shot-4.png",
             "subheading": "",
             "title": "For Any Occasion",
-            "content": "<p>Perfect for marking milestones, celebrating love, or simply showing appreciation, our collections go beyond beautiful design—they’re made to honor the emotions and memories that define us.</p>",
+            "content": "<p>Perfect for marking milestones, celebrating love, or simply showing appreciation, our collections go beyond beautiful design—they’re made to honor the emotions and memories that define us.<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -346,12 +338,12 @@
         "item-3": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/testimonial-img-4.png",
+            "image": "shopify:\/\/shop_images\/testimonial-img-4.png",
             "subheading": "",
             "title": "The Perfect Gift",
-            "content": "<p>Perfect for marking milestones, celebrating love, or simply showing appreciation, our collections go beyond beautiful design—they’re made to honor the emotions and memories that define us.</p>",
+            "content": "<p>Perfect for marking milestones, celebrating love, or simply showing appreciation, our collections go beyond beautiful design—they’re made to honor the emotions and memories that define us.<\/p>",
             "link_text": "Gifts for her",
-            "link_url": "shopify://collections/gifts-for-her",
+            "link_url": "shopify:\/\/collections\/gifts-for-her",
             "link_style": "solid"
           }
         },
@@ -359,10 +351,10 @@
           "type": "image_with_text",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/product-shot-6_4c797206-18ee-4aa2-8424-e8fcaa0404a7.webp",
+            "image": "shopify:\/\/shop_images\/product-shot-6_4c797206-18ee-4aa2-8424-e8fcaa0404a7.webp",
             "subheading": "",
             "title": "Jewelry with Heart",
-            "content": "<p>Each piece is crafted with care, blending timeless elegance with a personal touch that makes every gift truly unique. </p>",
+            "content": "<p>Each piece is crafted with care, blending timeless elegance with a personal touch that makes every gift truly unique. <\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -376,7 +368,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-4",
-        "background_image": "shopify://shop_images/pexels-mikhail-nilov-7676887.jpg",
+        "background_image": "shopify:\/\/shop_images\/pexels-mikhail-nilov-7676887.jpg",
         "image_position": "start",
         "text_alignment": "center",
         "heading_tag": "h1",
@@ -433,14 +425,14 @@
         "image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/asset_4380_transformation_12027_1.jpg",
+            "image": "shopify:\/\/shop_images\/asset_4380_transformation_12027_1.jpg",
             "rotation": 0
           }
         },
         "image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/testimonial-img-6.png",
+            "image": "shopify:\/\/shop_images\/testimonial-img-6.png",
             "rotation": 6
           }
         }
@@ -462,9 +454,9 @@
         "text_alignment": "center",
         "subheading": "Just for them",
         "title": "Thoughtful Jewelry for Unforgettable Moments",
-        "content": "<p>Our jewelry is designed to celebrate life’s most meaningful connections. </p>",
+        "content": "<p>Our jewelry is designed to celebrate life’s most meaningful connections. <\/p>",
         "button_1_text": "Shop now",
-        "button_1_link": "shopify://collections/all",
+        "button_1_link": "shopify:\/\/collections\/all",
         "button_1_style": "outline",
         "button_2_text": "",
         "button_2_link": "",
@@ -485,21 +477,30 @@
           "type": "richtext",
           "disabled": true,
           "settings": {
-            "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+          }
+        },
+        "link_WMyj9G": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "text": "Link text",
+            "url": ""
           }
         }
       },
       "block_order": [
         "subheading_3i4afe",
-        "richtext_AbzyPD"
+        "richtext_AbzyPD",
+        "link_WMyj9G"
       ],
       "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "image_size": "xs",
-        "image": "shopify://shop_images/pexels-roman-odintsov-6334660.webp",
+        "image": "shopify:\/\/shop_images\/hero-img-4.jpg",
         "content_width": "sm",
-        "enable_parallax": true,
+        "enable_parallax": false,
         "remove_vertical_spacing": true
       }
     },
@@ -629,7 +630,7 @@
             "icon_width": 24,
             "mobile_icon_width": 24,
             "title": "Perfect for Any Occasion",
-            "content": "<p>Ideal for Christmas, birthdays, or \"just because\" moments, making it versatile for every gift-giving need</p>"
+            "content": "<p>Ideal for Christmas, birthdays, or \"just because\" moments, making it versatile for every gift-giving need<\/p>"
           }
         },
         "item_tgfdLT": {
@@ -639,7 +640,7 @@
             "icon_width": 24,
             "mobile_icon_width": 24,
             "title": "Money-Back Guarantee",
-            "content": "<p>shop with confidence with our 30-day money-back guarantee, ensuring your satisfaction with every purchase</p>"
+            "content": "<p>shop with confidence with our 30-day money-back guarantee, ensuring your satisfaction with every purchase<\/p>"
           }
         },
         "item_yBBcih": {
@@ -649,7 +650,7 @@
             "icon_width": 24,
             "mobile_icon_width": 24,
             "title": "Gift Ready",
-            "content": "<p>Move beyond the mundane with a heartfelt message, allowing you to speak directly from your soul to theirs</p>"
+            "content": "<p>Move beyond the mundane with a heartfelt message, allowing you to speak directly from your soul to theirs<\/p>"
           }
         }
       },
@@ -735,11 +736,59 @@
       "settings": {
         "section-id": "#faq-home-section",
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "show_categories": false,
         "subheading": "",
         "title": "Frequently Asked Questions",
         "content": ""
+      }
+    },
+    "image_with_text_overlay_4WXpAh": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_CeGnRE": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_6NQkkj": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+          }
+        },
+        "button_HbpDMK": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Shop now",
+            "url": "shopify:\/\/collections\/all",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_CeGnRE",
+        "richtext_6NQkkj",
+        "button_HbpDMK"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/hero-img-4.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     }
   },
@@ -755,6 +804,7 @@
     "image_with_text_block_aemfYm",
     "collection-list",
     "text_with_icons_7jnxEA",
-    "faq_hwdbQE"
+    "faq_hwdbQE",
+    "image_with_text_overlay_4WXpAh"
   ]
 }
