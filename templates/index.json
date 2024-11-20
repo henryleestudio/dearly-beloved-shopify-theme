@@ -150,7 +150,8 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/testimonial-img-2.png",
-            "video_link": "https:\/\/www.youtube.com\/watch?v=5O9qbuhsvsQ&list=PLpctalp71xOB8jdIG-OYseZdxA_iloj9_&index=2",
+            "video": "shopify:\/\/files\/videos\/ever-love-vid-compressed.mp4",
+            "video_link": "",
             "title": "Dave B.",
             "heading_tag": "h3",
             "content": "<p>She won't stop smiling. I Got this pendant for my girl, and man, she lit up like the 4th of July. It's more than just the bling, you know? It's like it says everything without speaking a word.<\/p>",
@@ -478,19 +479,28 @@
           "settings": {
             "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
           }
+        },
+        "link_WMyj9G": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "text": "Link text",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "subheading_3i4afe",
-        "richtext_AbzyPD"
+        "richtext_AbzyPD",
+        "link_WMyj9G"
       ],
       "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "image_size": "xs",
-        "image": "shopify:\/\/shop_images\/pexels-roman-odintsov-6334660.webp",
+        "image": "shopify:\/\/shop_images\/hero-img-4.jpg",
         "content_width": "sm",
-        "enable_parallax": true,
+        "enable_parallax": false,
         "remove_vertical_spacing": true
       }
     },
@@ -726,11 +736,59 @@
       "settings": {
         "section-id": "#faq-home-section",
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "show_categories": false,
         "subheading": "",
         "title": "Frequently Asked Questions",
         "content": ""
+      }
+    },
+    "image_with_text_overlay_4WXpAh": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_CeGnRE": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_6NQkkj": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+          }
+        },
+        "button_HbpDMK": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Shop now",
+            "url": "shopify:\/\/collections\/all",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_CeGnRE",
+        "richtext_6NQkkj",
+        "button_HbpDMK"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/hero-img-4.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     }
   },
@@ -746,6 +804,7 @@
     "image_with_text_block_aemfYm",
     "collection-list",
     "text_with_icons_7jnxEA",
-    "faq_hwdbQE"
+    "faq_hwdbQE",
+    "image_with_text_overlay_4WXpAh"
   ]
 }
