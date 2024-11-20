@@ -5,6 +5,7 @@
       "blocks": {
         "vendor": {
           "type": "vendor",
+          "disabled": true,
           "settings": {}
         },
         "title": {
@@ -41,17 +42,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "image_xzWXK7": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2024-11-15_at_1.40.03_PM.png",
-            "alignment": "start",
-            "width_mode": "full_width",
-            "max_width": 300,
-            "mobile_max_width": 200
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -63,8 +53,16 @@
             "payment_button_text_color": ""
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
         "complementary_products": {
           "type": "complementary_products",
+          "disabled": true,
           "settings": {
             "title": "Pairs well with",
             "products_count": 2,
@@ -73,11 +71,15 @@
             "show_quick_buy": true
           }
         },
-        "description": {
-          "type": "description",
+        "image_eNDAj6": {
+          "type": "image",
+          "disabled": true,
           "settings": {
-            "collapse_content": false,
-            "show_below_gallery": false
+            "image": "shopify:\/\/shop_images\/love-knot-lifestyle.jpg",
+            "alignment": "start",
+            "width_mode": "full_width",
+            "max_width": 300,
+            "mobile_max_width": 200
           }
         }
       },
@@ -89,31 +91,593 @@
         "separator",
         "variant_picker",
         "quantity_selector",
-        "image_xzWXK7",
         "buy_buttons",
+        "description",
         "complementary_products",
-        "description"
+        "image_eNDAj6"
       ],
       "settings": {
         "color_scheme": "",
         "container_size": "lg",
         "product_info_size": 35,
         "show_sticky_add_to_cart": true,
-        "center_basic_info": false,
+        "center_basic_info": true,
         "desktop_media_layout": "grid",
         "desktop_media_grid_gap": 30,
-        "mobile_controls": "dots",
+        "mobile_controls": "thumbnails",
         "enable_media_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3
       }
     },
-    "related-products": {
-      "type": "related-products",
+    "media_grid_BTGkpM": {
+      "type": "media-grid",
+      "blocks": {
+        "image_KxM4EM": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/love-knot-lifestyle.jpg",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XUcz67": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/product-shot-6.webp",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_q8jwQi": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/product-shot-3.webp",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_KxM4EM",
+        "image_XUcz67",
+        "image_q8jwQi"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "image_with_text_7fRDF6": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_QzVmip": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_N4zAA6": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_icNhnd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Your piece is lovingly packaged in a complimentary soft touch box for easy gifting. Elevate your presentation by upgrading to the mahogany style luxury box, which features a brilliant LED spotlight.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QzVmip",
+        "heading_N4zAA6",
+        "richtext_icNhnd"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/forever-love-necklace-4.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_overlay_Rg8FnX": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_DLhyMK": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_tX6GzW": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_DLhyMK",
+        "richtext_tX6GzW"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/for-her-collection-banner.webp",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "images_with_text_scroll_FEkNXU": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_raXzC3": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial-img-6.png",
+            "subheading": "",
+            "title": "The Perfect Gift",
+            "content": "<p>Are you trying to find the perfect gift for everyone you love? You really want each gift to feel like a piece of you that your giving them? Something that says, “I see you. I know you?\"<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_mrfjYx": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product-shot-3.webp",
+            "subheading": "",
+            "title": "#1",
+            "content": "<ul><li>14k white gold over stainless steel or 18k yellow gold over stainless steel<\/li><li>6mm round cut cubic zirconia stone<\/li><li>Pendant dimensions: 0.6\" (15.7mm) height \/ 0.23\" (6mm) width<\/li><li>Adjustable chain length: 18\" - 22\" (45.72cm - 55.88cm)<\/li><li>Lobster clasp attachment<\/li><\/ul>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_eUXRUL": {
+          "type": "image_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product-shot-6_4c797206-18ee-4aa2-8424-e8fcaa0404a7.webp",
+            "subheading": "",
+            "title": "Materials",
+            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_raXzC3",
+        "image_with_text_mrfjYx",
+        "image_with_text_eUXRUL"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "background_image": "shopify:\/\/shop_images\/pexels-mikhail-nilov-7676887.jpg",
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "logo_list_BnGBGX": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_MatgVV": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_qNGBpY": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_npARNn": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_pP3CTX": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_cdzXJx": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_MatgVV",
+        "logo_qNGBpY",
+        "logo_npARNn",
+        "logo_pP3CTX",
+        "logo_cdzXJx"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "subheading": "Included With This Purchase",
+        "title": "Included With This Purchase",
+        "items_per_row": 5,
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "multi_column_dGtMzB": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_bi8m8V": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Symbol of Unbreakable Connection",
+            "heading_tag": "h3",
+            "content": "<p>The intricate love knot design represents the enduring strength and beauty of your bond, making it a meaningful gift for any special relationship.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_6by9JN": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Elegance for Any Occasion",
+            "heading_tag": "h3",
+            "content": "<p>Crafted with timeless elegance, this necklace is versatile enough to elevate everyday moments and enhance life’s most cherished celebrations.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_DNnepd": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "A Gift That Speaks from the Heart",
+            "heading_tag": "h3",
+            "content": "<p>Paired with a heartfelt message card, it lets you express your love and appreciation in a way words alone can’t capture.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_bi8m8V",
+        "image_with_text_6by9JN",
+        "image_with_text_DNnepd"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "tabs_mHVH6d": {
+      "type": "tabs",
+      "blocks": {
+        "tab_DN4pkB": {
+          "type": "tab",
+          "settings": {
+            "title": "Features",
+            "content": "<ul><li>14k white gold over stainless steel or 18k yellow gold over stainless steel<\/li><li>6mm round cut cubic zirconia stone<\/li><li>Pendant dimensions: 0.6\" (15.7mm) height \/ 0.23\" (6mm) width<\/li><li>Adjustable chain length: 18\" - 22\" (45.72cm - 55.88cm)<\/li><li>Lobster clasp attachment<\/li><\/ul>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_VzdmxV": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+            "content": "<p>Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        },
+        "tab_4n94Gw": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "content": "<p>Share information about your shipping rates, return policy or contact information.<\/p>",
+            "page": "",
+            "open_on_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_DN4pkB",
+        "tab_VzdmxV",
+        "tab_4n94Gw"
+      ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
+        "subheading": "Subheading",
+        "title": "Heading",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_XmtHiQ": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_p6GXtG": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_DXfcGT": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_4ELxYk": {
+          "type": "richtext",
+          "settings": {
+            "content": "<ul><li>14k white gold over stainless steel or 18k yellow gold over stainless steel<\/li><li>6mm round cut cubic zirconia stone<\/li><li>Pendant dimensions: 0.6\" (15.7mm) height \/ 0.23\" (6mm) width<\/li><li>Adjustable chain length: 18\" - 22\" (45.72cm - 55.88cm)<\/li><li>Lobster clasp attachment<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_p6GXtG",
+        "heading_DXfcGT",
+        "richtext_4ELxYk"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_6nRbdm": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_UxUjXY": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_YaGf3z": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_gV7cQL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_UxUjXY",
+        "heading_YaGf3z",
+        "richtext_gV7cQL"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "text_with_icons_riDAXa": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_tgxXhK": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-jewelry",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Perfect for Any Occasion",
+            "content": "<p>Ideal for Christmas, birthdays, or \"just because\" moments, making it versatile for every gift-giving need<\/p>"
+          }
+        },
+        "item_8b9F3B": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-credit-card",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Money-Back Guarantee",
+            "content": "<p>shop with confidence with our 30-day money-back guarantee, ensuring your satisfaction with every purchase<\/p>"
+          }
+        },
+        "item_Wtydqm": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-gift",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Gift Ready",
+            "content": "<p>Move beyond the mundane with a heartfelt message, allowing you to speak directly from your soul to theirs<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_tgxXhK",
+        "item_8b9F3B",
+        "item_Wtydqm"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
+    "media_grid_Yr8U9D": {
+      "type": "media-grid",
+      "blocks": {
+        "image_7HHrBV": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "8",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_afhip4": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_VGg9kp": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_7HHrBV",
+        "image_afhip4",
+        "image_VGg9kp"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
         "recommendations_count": 10,
@@ -125,10 +689,131 @@
         "title": "Related products",
         "content": ""
       }
+    },
+    "faq_Ggqfjp": {
+      "type": "faq",
+      "blocks": {
+        "category_kgYENK": {
+          "type": "category",
+          "disabled": true,
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_3cjcxC": {
+          "type": "question",
+          "settings": {
+            "question": "Shipping Details",
+            "answer": "<p><strong>WE ARE A UNITED STATES BASED COMPANY<\/strong><br\/><br\/>We utilize a made to order business model which means the item you received is one that was literally made for you! As soon as you ordered it, our production partner printed the item and shipped it to your door.<\/p><p>For this reason, it cannot be returned. If you'd like to check out our store, and perhaps order something else we'd like to offer you a 50% discount code that will work on any item we sell. Please let us know if you decide to choose something else!<\/p>"
+          }
+        },
+        "question_ytyVDG": {
+          "type": "question",
+          "settings": {
+            "question": "Will I receive a tracking number?",
+            "answer": "<p><strong>ORDER TRACKING<\/strong><br\/><br\/>As soon as your order ships, you will receive a confirmation email containing a tracking number. Use this number to track your shipment and stay updated on its journey to your doorstep.<br\/><br\/>If you have any questions about your order or require assistance, feel free to reach out to us at <a>connect@dearlybeloved.gifts<\/a>.<br\/><br\/>Yes! Once you place the order, you will receive an email confirmation. You will then receive another email with the tracking information within the next 24-48 business hours. You can track it here:<a href=\"https:\/\/kendallscollection.com\/pages\/track-my-order\" target=\"_blank\" title=\"https:\/\/kendallscollection.com\/pages\/track-my-order\">Track Order.<\/a><\/p>"
+          }
+        },
+        "question_Y6mgFV": {
+          "type": "question",
+          "settings": {
+            "question": "How soon will I get my orders?",
+            "answer": "<p><strong>PRODUCTION TIME<\/strong><br\/><br\/>Once you place an order, our skilled artisans dedicate 1-2 business days to crafting your item with care and attention to detail.<\/p><ul><li>Production does not occur on weekends or holidays.<\/li><\/ul><p><strong><br\/>SHIPPING TIME<\/strong><br\/><br\/>After production is complete, your order is handed over to our trusted shipping partners. Shipping typically takes <strong>3-7 business days<\/strong>.<\/p><ul><li>Shipping times may vary based on your location and unforeseen circumstances such as weather or carrier delays.<\/li><\/ul>"
+          }
+        },
+        "question_q7p8RC": {
+          "type": "question",
+          "settings": {
+            "question": "What does my order include?",
+            "answer": "<p>The order includes: the necklace, or the jewelry, the card with the message, and the Gift box of your choice.<\/p>"
+          }
+        },
+        "question_mFHYtD": {
+          "type": "question",
+          "settings": {
+            "question": "Features & Materials",
+            "answer": "<ul><li>14k white gold over stainless steel or 18k yellow gold over stainless steel<\/li><li>6mm round cut cubic zirconia stone<\/li><li>Pendant dimensions: 0.6\" (15.7mm) height \/ 0.23\" (6mm) width<\/li><li>Adjustable chain length: 18\" - 22\" (45.72cm - 55.88cm)<\/li><li>Lobster clasp attachment<\/li><\/ul>"
+          }
+        },
+        "question_d37GKE": {
+          "type": "question",
+          "settings": {
+            "question": "Does it come in the deluxe wooden box with light? What's included?",
+            "answer": "<p>The order includes: the necklace, or the jewelry, the card with the message, and the Gift box of your choice.<br\/><br\/>We offer 2 styles of boxes: the Deluxe Wooden Box With Light and the Standard Box (included). You will receive the one you chose at the time of purchase.<\/p>"
+          }
+        },
+        "question_D67nXp": {
+          "type": "question",
+          "settings": {
+            "question": "Does the necklace change color?",
+            "answer": "<p>No! The necklace and pendant are made of high-quality materials with a 14k and 18k gold finish and have been properly treated to maintain their properties. We always recommend applying proper care by avoiding exposure to chemicals and moisture, and storing it in a safe and dry place when not in use.<\/p>"
+          }
+        },
+        "question_RFaJPF": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question": "Do you ship to the United States?",
+            "answer": "<p>Yes, we ship to all states in the United States. We also ship to Puerto Rico, Canada, and Europe. NOTE: We do not ship to Mexico or Colombia.<\/p>"
+          }
+        },
+        "question_kfKqBd": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question": "How can I contact you in case I need to?",
+            "answer": "<p>You have 2 ways to get in touch with us. You can contact us through our Email Support connect@dearlydeloved.gifts<\/p>"
+          }
+        },
+        "question_7iw7Ak": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "question": "What material are the necklaces made of?",
+            "answer": "<p>In most cases, our necklaces and pendants are made of surgical stainless steel with a coating of white, yellow, or rose gold, adorned with delicate clear crystals surrounded by brilliant cubic zirconia. We also have special items made of certified solid gold that can be ordered from our catalog.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_kgYENK",
+        "question_3cjcxC",
+        "question_ytyVDG",
+        "question_Y6mgFV",
+        "question_q7p8RC",
+        "question_mFHYtD",
+        "question_d37GKE",
+        "question_D67nXp",
+        "question_RFaJPF",
+        "question_kfKqBd",
+        "question_7iw7Ak"
+      ],
+      "settings": {
+        "section-id": "",
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "show_categories": false,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "media_grid_BTGkpM",
+    "image_with_text_7fRDF6",
+    "image_with_text_overlay_Rg8FnX",
+    "images_with_text_scroll_FEkNXU",
+    "logo_list_BnGBGX",
+    "multi_column_dGtMzB",
+    "tabs_mHVH6d",
+    "rich_text_XmtHiQ",
+    "rich_text_6nRbdm",
+    "text_with_icons_riDAXa",
+    "media_grid_Yr8U9D",
+    "related-products",
+    "faq_Ggqfjp"
   ]
 }
