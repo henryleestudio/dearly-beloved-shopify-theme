@@ -4,9 +4,7 @@
       "type": "collection-banner",
       "settings": {
         "color_scheme": "scheme-3",
-        "image": "shopify:\/\/shop_images\/for-her-collection-banner.webp",
-        "mobile_image": "shopify:\/\/shop_images\/for-her-collection-banner-mobile.webp",
-        "image_size": "sm",
+        "image_size": "xs",
         "allow_transparent_header": true,
         "reveal": true,
         "enable_parallax": true,

@@ -11,13 +11,13 @@
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 1200,
-            "button_1_text": "",
-            "button_1_link": "",
+            "button_1_text": "SHOP GIFTS",
+            "button_1_link": "shopify:\/\/collections\/gifts",
             "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
+            "button_1_background": "#00293b",
+            "button_1_text_color": "#ffffff",
             "button_2_text": "",
             "button_2_link": "",
             "button_2_style": "outline",
@@ -146,39 +146,15 @@
     "testimonial_media_88Er9t": {
       "type": "testimonial-media",
       "blocks": {
-        "image_with_text_JQFqiF": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/testimonial-img-2.png",
-            "video": "shopify:\/\/files\/videos\/ever-love-vid-compressed.mp4",
-            "video_link": "",
-            "title": "Dave B.",
-            "heading_tag": "h3",
-            "content": "<p>She won't stop smiling. I Got this pendant for my girl, and man, she lit up like the 4th of July. It's more than just the bling, you know? It's like it says everything without speaking a word.<\/p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
-        "image_with_text_hkQ9BW": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/testimonial-img-5.webp",
-            "video_link": "",
-            "title": "Jordan C.",
-            "heading_tag": "h3",
-            "content": "<p>This is the perfect gift to express how much I love my wife. It will be a constant reminder of me when im gone. I will be getting one for my daughter.<\/p>",
-            "link_url": "",
-            "link_text": ""
-          }
-        },
         "image_with_text_x6NrPh": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/testimonial-img-5.png",
+            "image": "shopify:\/\/shop_images\/testimonial-img-8.webp",
+            "video": "shopify:\/\/files\/videos\/ever-love-vid-compressed.mp4",
             "video_link": "",
             "title": "Jesse M.",
             "heading_tag": "h3",
-            "content": "<p>Didn't take long to receive the necklace. A nice looking display box and it lights up. I would possibly consider buying another one. And the price didn't break the bank either!<\/p>",
+            "content": "<p>Didn't take long to receive the necklace. A nice looking display box and it lights up! It's more than just a gift, It's like it says everything without speaking a word.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -195,6 +171,18 @@
             "link_text": ""
           }
         },
+        "image_with_text_hkQ9BW": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial-img-5.webp",
+            "video_link": "",
+            "title": "Jordan C.",
+            "heading_tag": "h3",
+            "content": "<p>This is the perfect gift to express how much I love my wife. It will be a constant reminder of me when im gone. I will be getting one for my daughter.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
         "image_with_text_YeDmea": {
           "type": "image_with_text",
           "settings": {
@@ -206,14 +194,26 @@
             "link_url": "",
             "link_text": ""
           }
+        },
+        "image_with_text_JQFqiF": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial-img-2.png",
+            "video_link": "",
+            "title": "Dave B.",
+            "heading_tag": "h3",
+            "content": "<p>She won't stop smiling. I Got this pendant for my little girl, and man, she lit up like the 4th of July! I would possibly consider buying another one. <\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
         }
       },
       "block_order": [
-        "image_with_text_JQFqiF",
-        "image_with_text_hkQ9BW",
         "image_with_text_x6NrPh",
         "image_with_text_JE4CVf",
-        "image_with_text_YeDmea"
+        "image_with_text_hkQ9BW",
+        "image_with_text_YeDmea",
+        "image_with_text_JQFqiF"
       ],
       "settings": {
         "color_scheme": "",
@@ -258,8 +258,8 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Shop now",
-            "url": "shopify:\/\/collections\/all",
+            "text": "Shop Gifts",
+            "url": "shopify:\/\/collections\/gifts",
             "background": "",
             "text_color": ""
           }
@@ -323,27 +323,27 @@
     "image-with-text-scroll": {
       "type": "images-with-text-scroll",
       "blocks": {
-        "item-1": {
+        "item-3": {
           "type": "image_with_text",
           "settings": {
             "image": "shopify:\/\/shop_images\/product-shot-4.png",
+            "subheading": "",
+            "title": "The Perfect Gift",
+            "content": "<p>Are you trying to find the perfect gift for everyone you love? You really want each gift to feel like a piece of you that your giving them?  Something that says, “I see you. I know you?\"<\/p>",
+            "link_text": "Gifts for her",
+            "link_url": "shopify:\/\/collections\/gifts-for-her",
+            "link_style": "solid"
+          }
+        },
+        "item-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product-shot-7.webp",
             "subheading": "",
             "title": "For Any Occasion",
             "content": "<p>Perfect for marking milestones, celebrating love, or simply showing appreciation, our collections go beyond beautiful design—they’re made to honor the emotions and memories that define us.<\/p>",
             "link_text": "",
             "link_url": "",
-            "link_style": "solid"
-          }
-        },
-        "item-3": {
-          "type": "image_with_text",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/testimonial-img-4.png",
-            "subheading": "",
-            "title": "The Perfect Gift",
-            "content": "<p>Perfect for marking milestones, celebrating love, or simply showing appreciation, our collections go beyond beautiful design—they’re made to honor the emotions and memories that define us.<\/p>",
-            "link_text": "Gifts for her",
-            "link_url": "shopify:\/\/collections\/gifts-for-her",
             "link_style": "solid"
           }
         },
@@ -362,8 +362,8 @@
         }
       },
       "block_order": [
-        "item-1",
         "item-3",
+        "item-1",
         "item-2"
       ],
       "settings": {
@@ -452,13 +452,13 @@
         "media_alignment_offset": 0,
         "media_mobile_alignment_offset": 0,
         "text_alignment": "center",
-        "subheading": "Just for them",
-        "title": "Thoughtful Jewelry for Unforgettable Moments",
-        "content": "<p>Our jewelry is designed to celebrate life’s most meaningful connections. <\/p>",
-        "button_1_text": "Shop now",
-        "button_1_link": "shopify:\/\/collections\/all",
+        "subheading": "Unique Gifts",
+        "title": "Thoughtful Jewelry & Unforgettable Moments",
+        "content": "<p>Gift ready jewelry & message cards—designed to celebrate life’s most meaningful connections<\/p>",
+        "button_1_text": "Shop Gifts",
+        "button_1_link": "shopify:\/\/collections\/gifts",
         "button_1_style": "outline",
-        "button_2_text": "",
+        "button_2_text": "For her",
         "button_2_link": "",
         "button_2_style": "solid"
       }
@@ -765,8 +765,8 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Shop now",
-            "url": "shopify:\/\/collections\/all",
+            "text": "Shop Gifts",
+            "url": "shopify:\/\/collections\/gifts",
             "background": "",
             "text_color": ""
           }
