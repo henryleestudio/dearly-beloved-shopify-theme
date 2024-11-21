@@ -26,6 +26,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        "a {font-size: 13px;}"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "enable_sticky": true,
