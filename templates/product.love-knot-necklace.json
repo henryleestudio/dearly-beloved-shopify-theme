@@ -377,6 +377,92 @@
         "logo_item_border": ""
       }
     },
+    "testimonial_media_9CrRYz": {
+      "type": "testimonial-media",
+      "blocks": {
+        "image_with_text_x6NrPh": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial-img-8.webp",
+            "video": "shopify:\/\/files\/videos\/ever-love-vid-compressed.mp4",
+            "video_link": "",
+            "title": "Jesse M.",
+            "heading_tag": "h3",
+            "content": "<p>Didn't take long to receive the necklace. A nice looking display box and it lights up! It's more than just a gift, It's like it says everything without speaking a word.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_JE4CVf": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial-img-3.png",
+            "video_link": "",
+            "title": "Richard H.",
+            "heading_tag": "h3",
+            "content": "<p>My wife was ecstatic over the gift and very impressed with the quality, the beautiful box it came in and how bright and impressive the lighting was. It was a huge hit.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_hkQ9BW": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial-img-5.webp",
+            "video_link": "",
+            "title": "Jordan C.",
+            "heading_tag": "h3",
+            "content": "<p>This is the perfect gift to express how much I love my wife. It will be a constant reminder of me when im gone. I will be getting one for my daughter.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_YeDmea": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial-img-7.png",
+            "video_link": "",
+            "title": "Patricia W.",
+            "heading_tag": "h3",
+            "content": "<p>The purchase came exactly as portrayed online. I absolutely love my necklace! It is everything I could have imagined and I am extremely pleased. Great product!<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_JQFqiF": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/testimonial-img-2.png",
+            "video_link": "",
+            "title": "Dave B.",
+            "heading_tag": "h3",
+            "content": "<p>She won't stop smiling. I Got this pendant for my little girl, and man, she lit up like the 4th of July! I would possibly consider buying another one. <\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_x6NrPh",
+        "image_with_text_JE4CVf",
+        "image_with_text_hkQ9BW",
+        "image_with_text_YeDmea",
+        "image_with_text_JQFqiF"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "columns_per_row": 5,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
     "multi_column_dGtMzB": {
       "type": "multi-column",
       "blocks": {
@@ -807,6 +893,7 @@
     "image_with_text_overlay_Rg8FnX",
     "images_with_text_scroll_FEkNXU",
     "logo_list_BnGBGX",
+    "testimonial_media_9CrRYz",
     "multi_column_dGtMzB",
     "tabs_mHVH6d",
     "rich_text_XmtHiQ",
