@@ -89,6 +89,8 @@
                   
             -%}
 
+            {% assign video_link = block.settings.video | default:block.settings.video_link %}
+
             <div class="video-group">
             
               {%- if video_link != null -%}
