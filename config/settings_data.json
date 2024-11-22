@@ -61,8 +61,8 @@
           "text_color": "#0b1e25",
           "primary_button_background": "#00293b",
           "primary_button_text_color": "#ffffff",
-          "circle_button_background": "#153d41",
-          "circle_button_icon": "{{ shop.brand.colors.primary[0].foreground }}"
+          "circle_button_background": "#ffffff",
+          "circle_button_icon": "#1c1c1c"
         }
       },
       "scheme-2": {
