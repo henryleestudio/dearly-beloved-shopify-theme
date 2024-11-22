@@ -90,7 +90,9 @@
             -%}
 
             <div class="video-group">
-            <custom-deferred-media class="video_group">
+            
+              {%- if video_link != null -%}
+                <custom-deferred-media class="video_group">
                   <div class="cover-image">       
                     {%- liquid                
                       assign sizes = '(min-width: 1441px) 16.66667vw, (min-width: 1200px) 23vw, 44.27084vw'
@@ -108,7 +110,7 @@
                       }}
                     {%- endif -%}
 
-                    {% assign video_link = block.settings.video | default:block.settings.video_link %}
+                    
 
                     {%- if video_link != null -%}
                      <button type="button" class="play-button video-wrapper__play-button video-wrapper__play-button--ripple">
@@ -164,6 +166,25 @@
                      {%- endif -%}
                   </template>
                </custom-deferred-media>
+              {%- else -%}
+                <div class="cover-image">       
+                    {%- liquid                
+                      assign sizes = '(min-width: 1441px) 16.66667vw, (min-width: 1200px) 23vw, 44.27084vw'
+                      assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                    -%} 
+                    {%- if block.settings.image != blank -%}            
+                      {%- liquid
+                        assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
+                      -%} 
+                      {% assign dek_class = '' %}
+                      {{
+                        block.settings.image
+                        | image_url: width: 3840
+                        | image_tag: loading: 'lazy', width: block.settings.image.width, height: height, sizes: sizes, widths: widths, class: dek_class
+                      }}
+                    {%- endif -%}
+                </div>
+              {%- endif -%}
             
             {%- if block.settings.title != blank or block.settings.content != blank or block.settings.link_text != blank -%}
               <div class="prose text-{{ section.settings.text_alignment }}" style="padding-top: 20px;">
