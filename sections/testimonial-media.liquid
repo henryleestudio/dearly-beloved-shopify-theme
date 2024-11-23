@@ -89,81 +89,104 @@
                   
             -%}
 
+            {% assign video_link = block.settings.video | default:block.settings.video_link %}
+            
             <div class="video-group">
-            <custom-deferred-media class="video_group">
-                  <div class="cover-image">       
-                    {%- liquid                
-                      assign sizes = '(min-width: 1441px) 16.66667vw, (min-width: 1200px) 23vw, 44.27084vw'
-                      assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+           
+            {%- if video_link != null -%}
+              <custom-deferred-media class="video_group">
+                <div class="cover-image">       
+                  {%- liquid                
+                    assign sizes = '(min-width: 1441px) 16.66667vw, (min-width: 1200px) 23vw, 44.27084vw'
+                    assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                  -%} 
+                  {%- if block.settings.image != blank -%}            
+                    {%- liquid
+                      assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
                     -%} 
-                    {%- if block.settings.image != blank -%}            
+                    {% assign dek_class = '' %}
+                    {{
+                      block.settings.image
+                      | image_url: width: 3840
+                      | image_tag: loading: 'lazy', width: block.settings.image.width, height: height, sizes: sizes, widths: widths, class: dek_class
+                    }}
+                  {%- endif -%}
+
+                  
+
+                  {%- if video_link != null -%}
+                   <button type="button" class="play-button video-wrapper__play-button video-wrapper__play-button--ripple">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800px" width="800px" version="1.1" id="Capa_1" viewBox="0 0 142.448 142.448" xml:space="preserve" style="
+                        position: absolute;
+                        height: 100px;
+                        width: 100px;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                      ">
+                      <g>
+                        <path style="fill:#FFF;" d="M142.411,68.9C141.216,31.48,110.968,1.233,73.549,0.038c-20.361-0.646-39.41,7.104-53.488,21.639   C6.527,35.65-0.584,54.071,0.038,73.549c1.194,37.419,31.442,67.667,68.861,68.861c0.779,0.025,1.551,0.037,2.325,0.037   c19.454,0,37.624-7.698,51.163-21.676C135.921,106.799,143.033,88.377,142.411,68.9z M111.613,110.336   c-10.688,11.035-25.032,17.112-40.389,17.112c-0.614,0-1.228-0.01-1.847-0.029c-29.532-0.943-53.404-24.815-54.348-54.348   c-0.491-15.382,5.122-29.928,15.806-40.958c10.688-11.035,25.032-17.112,40.389-17.112c0.614,0,1.228,0.01,1.847,0.029   c29.532,0.943,53.404,24.815,54.348,54.348C127.91,84.76,122.296,99.306,111.613,110.336z"></path>
+                        <path style="fill:#FFF;" d="M94.585,67.086L63.001,44.44c-3.369-2.416-8.059-0.008-8.059,4.138v45.293   c0,4.146,4.69,6.554,8.059,4.138l31.583-22.647C97.418,73.331,97.418,69.118,94.585,67.086z"></path>
+                      </g>
+                      </svg>
+                   </button>
+                  {%- endif -%}
+                </div>
+                <template>
+                  {%- if block.settings.video == null -%}
                       {%- liquid
-                        assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
-                      -%} 
-                      {% assign dek_class = '' %}
-                      {{
-                        block.settings.image
-                        | image_url: width: 3840
-                        | image_tag: loading: 'lazy', width: block.settings.image.width, height: height, sizes: sizes, widths: widths, class: dek_class
-                      }}
-                    {%- endif -%}
-
-                    {% assign video_link = block.settings.video | default:block.settings.video_link %}
-
-                    {%- if video_link != null -%}
-                     <button type="button" class="play-button video-wrapper__play-button video-wrapper__play-button--ripple">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800px" width="800px" version="1.1" id="Capa_1" viewBox="0 0 142.448 142.448" xml:space="preserve" style="
-                          position: absolute;
-                          height: 100px;
-                          width: 100px;
-                          top: 50%;
-                          left: 50%;
-                          transform: translate(-50%, -50%);
-                        ">
-                        <g>
-                          <path style="fill:#FFF;" d="M142.411,68.9C141.216,31.48,110.968,1.233,73.549,0.038c-20.361-0.646-39.41,7.104-53.488,21.639   C6.527,35.65-0.584,54.071,0.038,73.549c1.194,37.419,31.442,67.667,68.861,68.861c0.779,0.025,1.551,0.037,2.325,0.037   c19.454,0,37.624-7.698,51.163-21.676C135.921,106.799,143.033,88.377,142.411,68.9z M111.613,110.336   c-10.688,11.035-25.032,17.112-40.389,17.112c-0.614,0-1.228-0.01-1.847-0.029c-29.532-0.943-53.404-24.815-54.348-54.348   c-0.491-15.382,5.122-29.928,15.806-40.958c10.688-11.035,25.032-17.112,40.389-17.112c0.614,0,1.228,0.01,1.847,0.029   c29.532,0.943,53.404,24.815,54.348,54.348C127.91,84.76,122.296,99.306,111.613,110.336z"></path>
-                          <path style="fill:#FFF;" d="M94.585,67.086L63.001,44.44c-3.369-2.416-8.059-0.008-8.059,4.138v45.293   c0,4.146,4.69,6.554,8.059,4.138l31.583-22.647C97.418,73.331,97.418,69.118,94.585,67.086z"></path>
-                        </g>
-                        </svg>
-                     </button>
-                    {%- endif -%}
-                  </div>
-                  <template>
-                    {%- if block.settings.video == null -%}
-                        {%- liquid
-                        assign video_id = block.settings.video.id | default: block.settings.video_link.id
-                        assign video_alt = block.settings.video.alt | default: block.settings.content
-                        assign poster = block.settings.video.preview_image | default: block.settings.image
+                      assign video_id = block.settings.video.id | default: block.settings.video_link.id
+                      assign video_alt = block.settings.video.alt | default: block.settings.content
+                      assign poster = block.settings.video.preview_image | default: block.settings.image
+                    -%}
+                      {%- liquid
+                        assign loop = ''
+                        if block.settings.enable_video_looping
+                          assign loop = '&loop=1&playlist=' | append: video_id
+                        endif
                       -%}
-                        {%- liquid
-                          assign loop = ''
-                          if block.settings.enable_video_looping
-                            assign loop = '&loop=1&playlist=' | append: video_id
-                          endif
-                        -%}
-                        
-                          {%- if block.settings.video_link.type == 'youtube' -%}
-                            <iframe
-                              src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1&autoplay=1{{ loop }}"
-                              class="js-youtube"
-                              allow="autoplay; encrypted-media"
-                              allowfullscreen
-                              title="{{ block.settings.content | escape }}"
-                            ></iframe>
-                          {%- else -%}
-                            <iframe
-                              src="https://player.vimeo.com/video/{{ video_id }}?autoplay=1{{ loop }}"
-                              class="js-vimeo"
-                              allow="autoplay; encrypted-media"
-                              allowfullscreen
-                              title="{{ block.settings.content | escape }}"
-                            ></iframe>
-                          {%- endif -%}
-                    {% else %}
-                     {{ block.settings.video | video_tag: autoplay: true, loop: block.settings.enable_video_looping, controls: true, muted:false }}
-                     {%- endif -%}
-                  </template>
-               </custom-deferred-media>
+                      
+                        {%- if block.settings.video_link.type == 'youtube' -%}
+                          <iframe
+                            src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1&autoplay=1{{ loop }}"
+                            class="js-youtube"
+                            allow="autoplay; encrypted-media"
+                            allowfullscreen
+                            title="{{ block.settings.content | escape }}"
+                          ></iframe>
+                        {%- else -%}
+                          <iframe
+                            src="https://player.vimeo.com/video/{{ video_id }}?autoplay=1{{ loop }}"
+                            class="js-vimeo"
+                            allow="autoplay; encrypted-media"
+                            allowfullscreen
+                            title="{{ block.settings.content | escape }}"
+                          ></iframe>
+                        {%- endif -%}
+                  {% else %}
+                   {{ block.settings.video | video_tag: autoplay: true, loop: block.settings.enable_video_looping, controls: true, muted:false }}
+                   {%- endif -%}
+                </template>
+             </custom-deferred-media>
+            {%- else -%}
+              <div class="cover-image">       
+                  {%- liquid                
+                    assign sizes = '(min-width: 1441px) 16.66667vw, (min-width: 1200px) 23vw, 44.27084vw'
+                    assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                  -%} 
+                  {%- if block.settings.image != blank -%}            
+                    {%- liquid
+                      assign height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round
+                    -%} 
+                    {% assign dek_class = '' %}
+                    {{
+                      block.settings.image
+                      | image_url: width: 3840
+                      | image_tag: loading: 'lazy', width: block.settings.image.width, height: height, sizes: sizes, widths: widths, class: dek_class
+                    }}
+                  {%- endif -%}
+              </div>
+            {%- endif -%}
             
             {%- if block.settings.title != blank or block.settings.content != blank or block.settings.link_text != blank -%}
               <div class="prose text-{{ section.settings.text_alignment }}" style="padding-top: 20px;">
