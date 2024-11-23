@@ -310,6 +310,10 @@
         "image_with_text_mrfjYx",
         "image_with_text_eUXRUL"
       ],
+      "custom_css": [
+        ".h3 {font-size: 30px;}",
+        "p {font-size: 18px;}"
+      ],
       "settings": {
         "color_scheme": "scheme-3",
         "background_image": "shopify:\/\/shop_images\/pexels-mikhail-nilov-7676887.jpg",
@@ -874,6 +878,9 @@
         "question_RFaJPF",
         "question_kfKqBd",
         "question_7iw7Ak"
+      ],
+      "custom_css": [
+        ".faq {margin-bottom: 50px;}"
       ],
       "settings": {
         "section-id": "",
