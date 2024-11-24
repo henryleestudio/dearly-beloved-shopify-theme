@@ -20,6 +20,16 @@
             "show_taxes_notice": false
           }
         },
+        "image_jxzGGx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-11-24_at_10.46.47_AM.png",
+            "alignment": "start",
+            "width_mode": "custom",
+            "max_width": 300,
+            "mobile_max_width": 200
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
@@ -87,6 +97,7 @@
         "vendor",
         "title",
         "price",
+        "image_jxzGGx",
         "payment_terms",
         "separator",
         "variant_picker",
