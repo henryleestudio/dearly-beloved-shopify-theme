@@ -36,3 +36,8 @@ a.mobile-stiky-btn {
   font-size: 15px;
   margin-right: 2px;
 }
+
+.badge--on-sale {
+  background: #2FDDB6;
+  color: #0B1E25;
+}
