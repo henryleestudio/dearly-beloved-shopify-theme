@@ -25,14 +25,14 @@
       ],
       "settings": {
         "color_scheme": "",
-        "image_size": "md",
-        "image": "shopify:\/\/shop_images\/day1_photo_by_luizaferraz-277.jpg",
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-11-25_at_9.55.30_PM.png",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
         "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
