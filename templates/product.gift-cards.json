@@ -28,13 +28,6 @@
           "type": "separator",
           "settings": {}
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false,
-            "show_below_gallery": false
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -69,6 +62,13 @@
             "stack_products": false,
             "show_quick_buy": true
           }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
         }
       },
       "block_order": [
@@ -77,11 +77,11 @@
         "price",
         "payment_terms",
         "separator",
-        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "complementary_products"
+        "complementary_products",
+        "description"
       ],
       "settings": {
         "color_scheme": "",
