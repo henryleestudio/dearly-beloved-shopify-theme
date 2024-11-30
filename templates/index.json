@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/hero-img-black-friday-weekend.webp",
-            "mobile_image": "shopify://shop_images/mobile-hero-img-black-friday-use.png",
+            "mobile_image": "shopify://shop_images/mobile-hero-img-black-friday-weekend.webp",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-end-center text-center",
