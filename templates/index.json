@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/hero-img-cyber-monday_c84fe1b6-7f28-4a7f-9910-8d5d74df683a.webp",
-            "mobile_image": "shopify://shop_images/mobile-hero-img-cyber-monday-1.webp",
+            "image": "shopify://shop_images/hero-img-5_497d4dc0-ae8c-4a4b-8c91-c6dcb515e2f9.jpg",
+            "mobile_image": "shopify://shop_images/db-mobile-hero-img-1.webp",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-end-center text-center",
