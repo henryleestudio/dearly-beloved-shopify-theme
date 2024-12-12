@@ -77,7 +77,7 @@
           "settings": {
             "image": "shopify://shop_images/trust-badge-1.webp",
             "alignment": "start",
-            "width_mode": "custom",
+            "width_mode": "full_width",
             "max_width": 300,
             "mobile_max_width": 200
           }
