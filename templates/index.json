@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/hero-img-5_497d4dc0-ae8c-4a4b-8c91-c6dcb515e2f9.jpg",
-            "mobile_image": "shopify://shop_images/db-mobile-hero-img-1.webp",
+            "image": "shopify://shop_images/hero-img-black-friday_740659aa-6215-4468-bd0d-4831c0afac23.webp",
+            "mobile_image": "shopify://shop_images/mobile-hero-img-black-friday_1.webp",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-end-center text-center",
