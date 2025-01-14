@@ -15,7 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/hero-img-black-friday_740659aa-6215-4468-bd0d-4831c0afac23.webp",
+            "image": "shopify://shop_images/hero-img-v-day.png",
             "mobile_image": "shopify://shop_images/mobile-hero-img-black-friday_1.webp",
             "subheading": "",
             "title": "",
@@ -385,7 +385,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-4",
-        "background_image": "shopify://shop_images/pexels-mikhail-nilov-7676887.jpg",
+        "background_image": "shopify://shop_images/texture-banner.jpg",
         "image_position": "start",
         "text_alignment": "center",
         "heading_tag": "h1",
@@ -808,7 +808,7 @@
       "settings": {
         "color_scheme": "scheme-3",
         "image_size": "auto",
-        "image": "shopify://shop_images/hero-img-4.jpg",
+        "image": "shopify://shop_images/v-day-collection-banner-2.png",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
