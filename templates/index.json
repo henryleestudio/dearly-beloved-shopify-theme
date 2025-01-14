@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/hero-img-v-day-1.webp",
-            "mobile_image": "shopify://shop_images/mobile-hero-img-black-friday_1.webp",
+            "mobile_image": "shopify://shop_images/mobile-hero-img-v-day.webp",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-end-center text-center",
