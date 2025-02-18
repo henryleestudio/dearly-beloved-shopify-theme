@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "slideshow": {
@@ -15,15 +6,15 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/hero-img-v-day-1.webp",
-            "mobile_image": "shopify://shop_images/mobile-hero-img-v-day.webp",
+            "image": "shopify:\/\/shop_images\/mothers-day-hero-img_f230ba4b-48aa-4b3a-8bbe-2b87b4afa7fd.webp",
+            "mobile_image": "shopify:\/\/shop_images\/mothers-day-mobile-hero-img_43f89cad-6b4f-4467-a2be-d14bab79b67a.webp",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 1200,
             "button_1_text": "SHOP GIFTS",
-            "button_1_link": "shopify://collections/gifts",
+            "button_1_link": "shopify:\/\/collections\/gifts",
             "button_1_style": "solid",
             "button_1_background": "#00293b",
             "button_1_text_color": "#ffffff",
@@ -88,7 +79,7 @@
         "logo_Qrbi84": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/TK_Maxx-Logo.png",
+            "logo": "shopify:\/\/shop_images\/TK_Maxx-Logo.png",
             "logo_width": 250,
             "link": ""
           }
@@ -96,7 +87,7 @@
         "logo_YKHTT7": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/macy_s-logo.png",
+            "logo": "shopify:\/\/shop_images\/macy_s-logo.png",
             "logo_width": 250,
             "link": ""
           }
@@ -104,7 +95,7 @@
         "logo_paxEEU": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/marshalls-logo.png",
+            "logo": "shopify:\/\/shop_images\/marshalls-logo.png",
             "logo_width": 210,
             "link": ""
           }
@@ -112,7 +103,7 @@
         "logo_Xcn96P": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/bloomingdales-logo.png",
+            "logo": "shopify:\/\/shop_images\/bloomingdales-logo.png",
             "logo_width": 250,
             "link": ""
           }
@@ -120,7 +111,7 @@
         "logo_9e9EC4": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/gap-logo.png",
+            "logo": "shopify:\/\/shop_images\/gap-logo.png",
             "logo_width": 80,
             "link": ""
           }
@@ -128,7 +119,7 @@
         "logo_rnDyrP": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/nordstrom-logo.png",
+            "logo": "shopify:\/\/shop_images\/nordstrom-logo.png",
             "logo_width": 250,
             "link": ""
           }
@@ -158,12 +149,12 @@
         "image_with_text_x6NrPh": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/testimonial-img-8.webp",
-            "video": "shopify://files/videos/ever-love-vid-compressed.mp4",
+            "image": "shopify:\/\/shop_images\/testimonial-img-8.webp",
+            "video": "shopify:\/\/files\/videos\/ever-love-vid-compressed.mp4",
             "video_link": "",
             "title": "Jesse M.",
             "heading_tag": "h3",
-            "content": "<p>Didn't take long to receive the necklace. A nice looking display box and it lights up! It's more than just a gift, It's like it says everything without speaking a word.</p>",
+            "content": "<p>Didn't take long to receive the necklace. A nice looking display box and it lights up! It's more than just a gift, It's like it says everything without speaking a word.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -171,11 +162,11 @@
         "image_with_text_JE4CVf": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/testimonial-img-3.png",
+            "image": "shopify:\/\/shop_images\/testimonial-img-3.png",
             "video_link": "",
             "title": "Richard H.",
             "heading_tag": "h3",
-            "content": "<p>My wife was ecstatic over the gift and very impressed with the quality, the beautiful box it came in and how bright and impressive the lighting was. It was a huge hit.</p>",
+            "content": "<p>My wife was ecstatic over the gift and very impressed with the quality, the beautiful box it came in and how bright and impressive the lighting was. It was a huge hit.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -183,11 +174,11 @@
         "image_with_text_hkQ9BW": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/testimonial-img-5.webp",
+            "image": "shopify:\/\/shop_images\/testimonial-img-5.webp",
             "video_link": "",
             "title": "Jordan C.",
             "heading_tag": "h3",
-            "content": "<p>This is the perfect gift to express how much I love my wife. It will be a constant reminder of me when im gone. I will be getting one for my daughter.</p>",
+            "content": "<p>This is the perfect gift to express how much I love my wife. It will be a constant reminder of me when im gone. I will be getting one for my daughter.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -195,11 +186,11 @@
         "image_with_text_YeDmea": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/testimonial-img-7.png",
+            "image": "shopify:\/\/shop_images\/testimonial-img-7.png",
             "video_link": "",
             "title": "Patricia W.",
             "heading_tag": "h3",
-            "content": "<p>The purchase came exactly as portrayed online. I absolutely love my necklace! It is everything I could have imagined and I am extremely pleased. Great product!</p>",
+            "content": "<p>The purchase came exactly as portrayed online. I absolutely love my necklace! It is everything I could have imagined and I am extremely pleased. Great product!<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -207,11 +198,11 @@
         "image_with_text_JQFqiF": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/testimonial-img-2.png",
+            "image": "shopify:\/\/shop_images\/testimonial-img-2.png",
             "video_link": "",
             "title": "Dave B.",
             "heading_tag": "h3",
-            "content": "<p>She won't stop smiling. I Got this pendant for my little girl, and man, she lit up like the 4th of July! I would possibly consider buying another one. </p>",
+            "content": "<p>She won't stop smiling. I Got this pendant for my little girl, and man, she lit up like the 4th of July! I would possibly consider buying another one. <\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -260,7 +251,7 @@
           "type": "richtext",
           "disabled": true,
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         },
         "button_CdHUY6": {
@@ -268,7 +259,7 @@
           "settings": {
             "style": "solid",
             "text": "Shop Gifts",
-            "url": "shopify://collections/gifts",
+            "url": "shopify:\/\/collections\/gifts",
             "background": "",
             "text_color": ""
           }
@@ -297,7 +288,7 @@
             "collection": "gifts-for-her",
             "products_count": 20,
             "title": "GIFTS FOR HER",
-            "link_url": "shopify://collections/gifts-for-her",
+            "link_url": "shopify:\/\/collections\/gifts-for-her",
             "link_text": "View all"
           }
         },
@@ -339,22 +330,22 @@
         "item-3": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/product-shot-4.png",
+            "image": "shopify:\/\/shop_images\/product-shot-4.png",
             "subheading": "",
             "title": "The Perfect Gift",
-            "content": "<p>Are you trying to find the perfect gift for everyone you love? You really want each gift to feel like a piece of you that your giving them?  Something that says, “I see you. I know you?\"</p>",
+            "content": "<p>Are you trying to find the perfect gift for everyone you love? You really want each gift to feel like a piece of you that your giving them?  Something that says, “I see you. I know you?\"<\/p>",
             "link_text": "Gifts for her",
-            "link_url": "shopify://collections/gifts-for-her",
+            "link_url": "shopify:\/\/collections\/gifts-for-her",
             "link_style": "solid"
           }
         },
         "item-1": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/interlocking-love-square-rounded.png",
+            "image": "shopify:\/\/shop_images\/interlocking-love-square-rounded.png",
             "subheading": "",
             "title": "For Any Occasion",
-            "content": "<p>Perfect for marking milestones, celebrating love, or simply showing appreciation, our collections go beyond beautiful design—they’re made to honor the emotions and memories that define us.</p>",
+            "content": "<p>Perfect for marking milestones, celebrating love, or simply showing appreciation, our collections go beyond beautiful design—they’re made to honor the emotions and memories that define us.<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -364,10 +355,10 @@
           "type": "image_with_text",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/product-shot-6_4c797206-18ee-4aa2-8424-e8fcaa0404a7.webp",
+            "image": "shopify:\/\/shop_images\/product-shot-6_4c797206-18ee-4aa2-8424-e8fcaa0404a7.webp",
             "subheading": "",
             "title": "Jewelry with Heart",
-            "content": "<p>Each piece is crafted with care, blending timeless elegance with a personal touch that makes every gift truly unique. </p>",
+            "content": "<p>Each piece is crafted with care, blending timeless elegance with a personal touch that makes every gift truly unique. <\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -385,7 +376,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-4",
-        "background_image": "shopify://shop_images/texture-banner.jpg",
+        "background_image": "shopify:\/\/shop_images\/pexels-mikhail-nilov-7676887.jpg",
         "image_position": "start",
         "text_alignment": "center",
         "heading_tag": "h1",
@@ -442,14 +433,14 @@
         "image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/asset_4380_transformation_12027_1.jpg",
+            "image": "shopify:\/\/shop_images\/asset_4380_transformation_12027_1.jpg",
             "rotation": 0
           }
         },
         "image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/testimonial-img-6.png",
+            "image": "shopify:\/\/shop_images\/testimonial-img-6.png",
             "rotation": 6
           }
         }
@@ -475,12 +466,12 @@
         "text_alignment": "center",
         "subheading": "Unique Gifts",
         "title": "For Unforgettable Moments",
-        "content": "<p>Gift ready jewelry & message cards—designed to celebrate life’s most meaningful connections</p>",
+        "content": "<p>Gift ready jewelry & message cards—designed to celebrate life’s most meaningful connections<\/p>",
         "button_1_text": "Shop Gifts",
-        "button_1_link": "shopify://collections/gifts",
+        "button_1_link": "shopify:\/\/collections\/gifts",
         "button_1_style": "outline",
         "button_2_text": "For her",
-        "button_2_link": "shopify://collections/gifts-for-her",
+        "button_2_link": "shopify:\/\/collections\/gifts-for-her",
         "button_2_style": "solid"
       }
     },
@@ -498,7 +489,7 @@
           "type": "richtext",
           "disabled": true,
           "settings": {
-            "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
           }
         },
         "link_WMyj9G": {
@@ -519,7 +510,7 @@
       "settings": {
         "color_scheme": "scheme-2",
         "image_size": "xs",
-        "image": "shopify://shop_images/hero-img-4.jpg",
+        "image": "shopify:\/\/shop_images\/hero-img-4.jpg",
         "content_width": "sm",
         "enable_parallax": false,
         "remove_vertical_spacing": true
@@ -651,7 +642,7 @@
             "icon_width": 24,
             "mobile_icon_width": 24,
             "title": "Perfect for Any Occasion",
-            "content": "<p>Ideal for Christmas, birthdays, or \"just because\" moments, making it versatile for every gift-giving need</p>"
+            "content": "<p>Ideal for Christmas, birthdays, or \"just because\" moments, making it versatile for every gift-giving need<\/p>"
           }
         },
         "item_tgfdLT": {
@@ -661,7 +652,7 @@
             "icon_width": 24,
             "mobile_icon_width": 24,
             "title": "Money-Back Guarantee",
-            "content": "<p>Shop with confidence with our 30-day money-back guarantee, ensuring your satisfaction with every purchase</p>"
+            "content": "<p>Shop with confidence with our 30-day money-back guarantee, ensuring your satisfaction with every purchase<\/p>"
           }
         },
         "item_yBBcih": {
@@ -671,7 +662,7 @@
             "icon_width": 24,
             "mobile_icon_width": 24,
             "title": "Gift Ready and Prepared",
-            "content": "<p>Move beyond the mundane with a heartfelt message, allowing you to speak directly from your soul to theirs</p>"
+            "content": "<p>Move beyond the mundane with a heartfelt message, allowing you to speak directly from your soul to theirs<\/p>"
           }
         }
       },
@@ -709,35 +700,35 @@
           "type": "question",
           "settings": {
             "question": "Shipping details",
-            "answer": "<p><strong>WE ARE A UNITED STATES BASED COMPANY</strong><br/><br/>We utilize a made to order business model which means the item you received is one that was literally made for you! As soon as you ordered it, our production partner printed the item and shipped it to your door.</p><p>For this reason, it cannot be returned. If you'd like to check out our store, and perhaps order something else we'd like to offer you a 50% discount code that will work on any item we sell. Please let us know if you decide to choose something else!</p>"
+            "answer": "<p><strong>WE ARE A UNITED STATES BASED COMPANY<\/strong><br\/><br\/>We utilize a made to order business model which means the item you received is one that was literally made for you! As soon as you ordered it, our production partner printed the item and shipped it to your door.<\/p><p>For this reason, it cannot be returned. If you'd like to check out our store, and perhaps order something else we'd like to offer you a 50% discount code that will work on any item we sell. Please let us know if you decide to choose something else!<\/p>"
           }
         },
         "question_wGazJE": {
           "type": "question",
           "settings": {
             "question": "Will I receive a tracking number?",
-            "answer": "<p><strong>ORDER TRACKING</strong><br/><br/>As soon as your order ships, you will receive a confirmation email containing a tracking number. Use this number to track your shipment and stay updated on its journey to your doorstep.<br/><br/>If you have any questions about your order or require assistance, feel free to reach out to us at <a>connect@dearlybeloved.gifts</a>.<br/><br/>Yes! Once you place the order, you will receive an email confirmation. You will then receive another email with the tracking information within the next 24-48 business hours. You can track it here:<a href=\"https://kendallscollection.com/pages/track-my-order\" target=\"_blank\" title=\"https://kendallscollection.com/pages/track-my-order\">Track Order.</a></p>"
+            "answer": "<p><strong>ORDER TRACKING<\/strong><br\/><br\/>As soon as your order ships, you will receive a confirmation email containing a tracking number. Use this number to track your shipment and stay updated on its journey to your doorstep.<br\/><br\/>If you have any questions about your order or require assistance, feel free to reach out to us at <a>connect@dearlybeloved.gifts<\/a>.<br\/><br\/>Yes! Once you place the order, you will receive an email confirmation. You will then receive another email with the tracking information within the next 24-48 business hours. You can track it here:<a href=\"https:\/\/kendallscollection.com\/pages\/track-my-order\" target=\"_blank\" title=\"https:\/\/kendallscollection.com\/pages\/track-my-order\">Track Order.<\/a><\/p>"
           }
         },
         "question_NkTjDB": {
           "type": "question",
           "settings": {
             "question": "How soon will I get my orders?",
-            "answer": "<p><strong>PRODUCTION TIME</strong><br/><br/>Once you place an order, our skilled artisans dedicate 1-2 business days to crafting your item with care and attention to detail.</p><ul><li>Production does not occur on weekends or holidays.</li></ul><p><strong><br/>SHIPPING TIME</strong><br/><br/>After production is complete, your order is handed over to our trusted shipping partners. Shipping typically takes <strong>3-7 business days</strong>.</p><ul><li>Shipping times may vary based on your location and unforeseen circumstances such as weather or carrier delays.</li></ul>"
+            "answer": "<p><strong>PRODUCTION TIME<\/strong><br\/><br\/>Once you place an order, our skilled artisans dedicate 1-2 business days to crafting your item with care and attention to detail.<\/p><ul><li>Production does not occur on weekends or holidays.<\/li><\/ul><p><strong><br\/>SHIPPING TIME<\/strong><br\/><br\/>After production is complete, your order is handed over to our trusted shipping partners. Shipping typically takes <strong>3-7 business days<\/strong>.<\/p><ul><li>Shipping times may vary based on your location and unforeseen circumstances such as weather or carrier delays.<\/li><\/ul>"
           }
         },
         "question_wE8zfR": {
           "type": "question",
           "settings": {
             "question": "Does it come in the deluxe wooden box with light? What's included?",
-            "answer": "<p>The order includes: the necklace, or the jewelry, the card with the message, and the Gift box of your choice.<br/><br/>We offer 2 styles of boxes: the Deluxe Wooden Box With Light and the Standard Box (included). You will receive the one you chose at the time of purchase.</p>"
+            "answer": "<p>The order includes: the necklace, or the jewelry, the card with the message, and the Gift box of your choice.<br\/><br\/>We offer 2 styles of boxes: the Deluxe Wooden Box With Light and the Standard Box (included). You will receive the one you chose at the time of purchase.<\/p>"
           }
         },
         "question_6TPAgq": {
           "type": "question",
           "settings": {
             "question": "Does the necklace change color?",
-            "answer": "<p>No! The necklace and pendant are made of high-quality materials with a 14k and 18k gold finish and have been properly treated to maintain their properties. We always recommend applying proper care by avoiding exposure to chemicals and moisture, and storing it in a safe and dry place when not in use.</p>"
+            "answer": "<p>No! The necklace and pendant are made of high-quality materials with a 14k and 18k gold finish and have been properly treated to maintain their properties. We always recommend applying proper care by avoiding exposure to chemicals and moisture, and storing it in a safe and dry place when not in use.<\/p>"
           }
         },
         "question_Yj9KMk": {
@@ -745,7 +736,7 @@
           "disabled": true,
           "settings": {
             "question": "How can I contact you in case I need to?",
-            "answer": "<p>You have 2 ways to get in touch with us. You can contact us through our Email Support connect@dearlydeloved.gifts</p>"
+            "answer": "<p>You have 2 ways to get in touch with us. You can contact us through our Email Support connect@dearlydeloved.gifts<\/p>"
           }
         }
       },
@@ -786,7 +777,7 @@
           "type": "richtext",
           "disabled": true,
           "settings": {
-            "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
           }
         },
         "button_HbpDMK": {
@@ -794,7 +785,7 @@
           "settings": {
             "style": "solid",
             "text": "Shop Gifts",
-            "url": "shopify://collections/gifts",
+            "url": "shopify:\/\/collections\/gifts",
             "background": "",
             "text_color": ""
           }
@@ -808,7 +799,7 @@
       "settings": {
         "color_scheme": "scheme-3",
         "image_size": "auto",
-        "image": "shopify://shop_images/v-day-collection-banner-2.png",
+        "image": "shopify:\/\/shop_images\/v-day-collection-banner-2.png",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
