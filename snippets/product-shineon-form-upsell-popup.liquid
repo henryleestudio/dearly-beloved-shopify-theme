@@ -506,7 +506,7 @@ Sided Stick -> display_option1_metal = true
 
                   {% assign data_metal = variant.metafields.shineon.metal %}
 
-                  {% include 'product-info-shineon' with 'swatches' and has_gold_swatch %}
+                  {% include 'product-info-shineon' with 'swatches' %}
                   
                 {% endfor %}
               </fieldset>
@@ -647,14 +647,14 @@ Sided Stick -> display_option1_metal = true
               {% if section.settings.option1_selection == 'dropdown' %}
               <div class="selector-wrap-triangle-down">
                 <select class="so-variant-selector">
-                  {% for heart in (1.. inputs_size) %}
+                  {% for heart in renamed_variable_1 %}
                     <option data-quantity="{{ forloop.index }}" value="{{ variant_accessory_type }}-{{ heart }}">{{ heart }} {{ variant_accessory_type }}{% if forloop.index0 > 0 %}s{% endif %}</option>
                   {% endfor %}
                 </select>
               </div>
               {% else %}
                 <div class="quantity-selector-swatches">
-                  {% for heart in (1.. inputs_size) %}
+                  {% for heart in renamed_variable_1 %}
                   <div data-quantity="{{ forloop.index }}" class="quantity-swatch" data-value="{{ variant_accessory_type }}-{{ heart }}">
                     {{ heart }} {{ variant_accessory_type }}{% if forloop.index0 > 0 %}s{% endif %}
                   </div>
@@ -872,11 +872,7 @@ Sided Stick -> display_option1_metal = true
 
         {% if cro_design_product == false %}
 
-          {% include 'product-info-shineon'
-              with 'so-product-price'
-              and quantity_selector
-              and tag_text
-          %}
+          {% include 'product-info-shineon' with 'so-product-price' %}
 
         {% endif %}
 
@@ -904,7 +900,7 @@ Sided Stick -> display_option1_metal = true
  
         {% unless shop.permanent_domain contains 'shineon-platform' %}
           {% if product.available == true %}
-          {% include 'product-informations-alert-shineon' with section_type: 'discount-message' %}
+          {% include 'product-informations-alert-shineon' with section_type, section_type: 'discount-message' %}
           {% endif %}
         {% endunless %}
 
@@ -930,7 +926,7 @@ Sided Stick -> display_option1_metal = true
           {% endif %}
 
           {% if section.settings.informations_alert_enable == true and product.available == true %}
-          {% include 'product-informations-alert-shineon' with almost_gone_max_value: section.settings.almost_gone_max_value, almost_gone_interval: section.settings.almost_gone_interval, section_type: 'hurry_up' %}
+          {% include 'product-informations-alert-shineon' with almost_gone_max_value, almost_gone_max_value: section.settings.almost_gone_max_value, almost_gone_interval: section.settings.almost_gone_interval, section_type: 'hurry_up' %}
           {% endif %}
         {% endif %}
 
@@ -955,7 +951,7 @@ Sided Stick -> display_option1_metal = true
         {% endif %}
 
         {% if section.settings.informations_alert_enable == true and product.available == true and cro_design_product == false %}
-        {% include 'product-informations-alert-shineon' with almost_gone_max_value: section.settings.almost_gone_max_value, almost_gone_interval: section.settings.almost_gone_interval, section_type: 'hurry_up' %}
+        {% include 'product-informations-alert-shineon' with almost_gone_max_value, almost_gone_max_value: section.settings.almost_gone_max_value, almost_gone_interval: section.settings.almost_gone_interval, section_type: 'hurry_up' %}
         {% endif %}
       {% endif %}
 
@@ -2756,4 +2752,46 @@ document.addEventListener("DOMContentLoaded", function (event) {
 <!--FMRS-POPUP:END-->
 {% endif %}
 
-{% include 'product-shineon-scripts' with 'modal' %}
+{% include 'product-shineon-scripts' with 'modal' %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'product-info-shineon' with 'swatches' and has_gold_swatch %}"
+  to: "{% include 'product-info-shineon' with 'swatches' %}"
+  position: 25903..25955
+- from: "{% for heart in (1.. inputs_size) %}"
+  to: "{% for heart in renamed_variable_1 %}"
+  position: 34220..34257
+- from: "{% for heart in (1.. inputs_size) %}"
+  to: "{% for heart in renamed_variable_1 %}"
+  position: 34638..34675
+- from: |-
+    {% include 'product-info-shineon'
+                  with 'so-product-price'
+                  and quantity_selector
+                  and tag_text
+              %}
+  to: "{% include 'product-info-shineon' with 'so-product-price' %}"
+  position: 46961..47021
+- from: "{% include 'product-informations-alert-shineon' with section_type: 'discount-message'
+    %}"
+  to: "{% include 'product-informations-alert-shineon' with section_type, section_type:
+    'discount-message' %}"
+  position: 48250..48352
+- from: "{% include 'product-informations-alert-shineon' with almost_gone_max_value:
+    section.settings.almost_gone_max_value, almost_gone_interval: section.settings.almost_gone_interval,
+    section_type: 'hurry_up' %}"
+  to: "{% include 'product-informations-alert-shineon' with almost_gone_max_value,
+    almost_gone_max_value: section.settings.almost_gone_max_value, almost_gone_interval:
+    section.settings.almost_gone_interval, section_type: 'hurry_up' %}"
+  position: 49456..49683
+- from: "{% include 'product-informations-alert-shineon' with almost_gone_max_value:
+    section.settings.almost_gone_max_value, almost_gone_interval: section.settings.almost_gone_interval,
+    section_type: 'hurry_up' %}"
+  to: "{% include 'product-informations-alert-shineon' with almost_gone_max_value,
+    almost_gone_max_value: section.settings.almost_gone_max_value, almost_gone_interval:
+    section.settings.almost_gone_interval, section_type: 'hurry_up' %}"
+  position: 50650..50877
+{%- endcomment -%}
